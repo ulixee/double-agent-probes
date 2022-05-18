@@ -1,0 +1,598 @@
+[
+  {
+    "id": "numr-aabk",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.version"
+    },
+    "args": [
+      771,
+      "TLS 1.2"
+    ]
+  },
+  {
+    "id": "numr-aabl",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      4865,
+      "TLS_AES_128_GCM_SHA256"
+    ]
+  },
+  {
+    "id": "numr-aabm",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      4866,
+      "TLS_AES_256_GCM_SHA384"
+    ]
+  },
+  {
+    "id": "numr-aabn",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      4867,
+      "TLS_CHACHA20_POLY1305_SHA256"
+    ]
+  },
+  {
+    "id": "numr-aabo",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      49195,
+      "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256"
+    ]
+  },
+  {
+    "id": "numr-aabp",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      49199,
+      "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
+    ]
+  },
+  {
+    "id": "numr-aabq",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      49196,
+      "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384"
+    ]
+  },
+  {
+    "id": "numr-aabr",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      49200,
+      "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
+    ]
+  },
+  {
+    "id": "numr-aabs",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      52393,
+      "TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256"
+    ]
+  },
+  {
+    "id": "numr-aabt",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      52392,
+      "TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256"
+    ]
+  },
+  {
+    "id": "numr-aabu",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      49171,
+      "TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+    ]
+  },
+  {
+    "id": "numr-aabv",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      49172,
+      "TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+    ]
+  },
+  {
+    "id": "numr-aabw",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      156,
+      "TLS_RSA_WITH_AES_128_GCM_SHA256"
+    ]
+  },
+  {
+    "id": "numr-aabx",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      157,
+      "TLS_RSA_WITH_AES_256_GCM_SHA384"
+    ]
+  },
+  {
+    "id": "numr-aaby",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      47,
+      "TLS_RSA_WITH_AES_128_CBC_SHA"
+    ]
+  },
+  {
+    "id": "numr-aabz",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.ciphers"
+    },
+    "args": [
+      53,
+      "TLS_RSA_WITH_AES_256_CBC_SHA"
+    ]
+  },
+  {
+    "id": "numr-aacb",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      0,
+      "server_name"
+    ]
+  },
+  {
+    "id": "numr-aacc",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      23,
+      "extended_master_secret"
+    ]
+  },
+  {
+    "id": "numr-aacd",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      65281,
+      "renegotiate"
+    ]
+  },
+  {
+    "id": "numr-aace",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      10,
+      "supported_groups"
+    ]
+  },
+  {
+    "id": "numr-aacf",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      11,
+      "ec_point_formats"
+    ]
+  },
+  {
+    "id": "numr-aacg",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      35,
+      "session_ticket"
+    ]
+  },
+  {
+    "id": "numr-aach",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      16,
+      "application_layer_protocol_negotiation"
+    ]
+  },
+  {
+    "id": "numr-aaci",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      5,
+      "status_request"
+    ]
+  },
+  {
+    "id": "numr-aacj",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      13,
+      "signature_algorithms"
+    ]
+  },
+  {
+    "id": "numr-aack",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      18,
+      "signed_certificate_timestamps"
+    ]
+  },
+  {
+    "id": "numr-aacl",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      51,
+      "key_share"
+    ]
+  },
+  {
+    "id": "numr-aacm",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      45,
+      "psk_key_exchange_modes"
+    ]
+  },
+  {
+    "id": "numr-aacn",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      43,
+      "supported_versions"
+    ]
+  },
+  {
+    "id": "numr-aaco",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      27,
+      "compress_certificate"
+    ]
+  },
+  {
+    "id": "numr-aacp",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      21,
+      "padding"
+    ]
+  },
+  {
+    "id": "numr-aacq",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_groups"
+    },
+    "args": [
+      29,
+      "ecdh_x25519"
+    ]
+  },
+  {
+    "id": "numr-aacr",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_groups"
+    },
+    "args": [
+      23,
+      "secp256r1"
+    ]
+  },
+  {
+    "id": "numr-aacs",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_groups"
+    },
+    "args": [
+      24,
+      "secp384r1"
+    ]
+  },
+  {
+    "id": "strg-abwc",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.ec_point_formats"
+    },
+    "args": [
+      "uncompressed (0)"
+    ]
+  },
+  {
+    "id": "strg-abwd",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_versions"
+    },
+    "args": [
+      "TLS 1.3 (772)"
+    ]
+  },
+  {
+    "id": "strg-abwe",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_versions"
+    },
+    "args": [
+      "TLS 1.2 (771)"
+    ]
+  },
+  {
+    "id": "strg-abwh",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.signature_algorithms"
+    },
+    "args": [
+      "ecdsa_secp256r1_sha256 (0x0403)"
+    ]
+  },
+  {
+    "id": "strg-abwi",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.signature_algorithms"
+    },
+    "args": [
+      "rsa_pss_rsae_sha256 (0x0804)"
+    ]
+  },
+  {
+    "id": "strg-abwj",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.signature_algorithms"
+    },
+    "args": [
+      "rsa_pkcs1_sha256 (0x0401)"
+    ]
+  },
+  {
+    "id": "strg-abwk",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.signature_algorithms"
+    },
+    "args": [
+      "ecdsa_secp384r1_sha384 (0x0503)"
+    ]
+  },
+  {
+    "id": "strg-abwl",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.signature_algorithms"
+    },
+    "args": [
+      "rsa_pss_rsae_sha384 (0x0805)"
+    ]
+  },
+  {
+    "id": "strg-abwm",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.signature_algorithms"
+    },
+    "args": [
+      "rsa_pkcs1_sha384 (0x0501)"
+    ]
+  },
+  {
+    "id": "strg-abwn",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.signature_algorithms"
+    },
+    "args": [
+      "rsa_pss_rsae_sha512 (0x0806)"
+    ]
+  },
+  {
+    "id": "strg-abwo",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.signature_algorithms"
+    },
+    "args": [
+      "rsa_pkcs1_sha512 (0x0601)"
+    ]
+  },
+  {
+    "id": "strg-abwq",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.application_layer_protocol_negotiation"
+    },
+    "args": [
+      "h2"
+    ]
+  },
+  {
+    "id": "strg-abwr",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.application_layer_protocol_negotiation"
+    },
+    "args": [
+      "http/1.1"
+    ]
+  },
+  {
+    "id": "bool-aags",
+    "checkName": "BooleanCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.isGreased"
+    },
+    "args": [
+      true
+    ]
+  },
+  {
+    "id": "strg-abwf",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_versions"
+    },
+    "args": [
+      "TLS 1.1 (770)"
+    ]
+  },
+  {
+    "id": "strg-abwg",
+    "checkName": "StringCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_versions"
+    },
+    "args": [
+      "TLS 1.0 (769)"
+    ]
+  },
+  {
+    "id": "numr-aact",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      17513,
+      "UNKNOWN"
+    ]
+  }
+]

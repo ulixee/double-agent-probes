@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "h2s-1001",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-11--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1002",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-11--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1003",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-11--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1004",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-11--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1005",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-12--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1006",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-12--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1007",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-12--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1008",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-12--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1009",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-13--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1010",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-13--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1011",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-13--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1012",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-13--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1013",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-14--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1014",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-14--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1015",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-14--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1016",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-14--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1017",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-15--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1018",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-15--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1019",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-15--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1020",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-15--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1021",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-11--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1022",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-11--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1023",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-11--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1024",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-11--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1025",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-12--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1026",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-12--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1027",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-12--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1028",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-12--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1029",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-10--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1030",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-10--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1031",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-10--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1032",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-10--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1033",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-11--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1034",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-11--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1035",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-11--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1036",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-11--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1037",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-7--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1038",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-7--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1039",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-7--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1040",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-7--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1041",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1042",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1043",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1044",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1045",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8-1--chrome-89-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1046",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8-1--chrome-96-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1047",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8-1--chrome-97-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1048",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8-1--chrome-98-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  }
+]

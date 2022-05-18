@@ -1,0 +1,11 @@
+{
+  "sessions:NumberCheck:1": "numr-aabh",
+  "remoteSettings.remoteWindowSize:NumberCheck:65535": "numr-aabi",
+  "frame.weight:NumberCheck:256": "numr-aabj",
+  "frame.flags.END_STREAM:BooleanCheck:value=true": "bool-aagm",
+  "frame.flags.RESERVED2:BooleanCheck:value=false": "bool-aagn",
+  "frame.flags.END_HEADERS:BooleanCheck:value=false": "bool-aago",
+  "frame.flags.PADDED:BooleanCheck:value=true": "bool-aagp",
+  "frame.flags.RESERVED5:BooleanCheck:value=false": "bool-aagq",
+  "frame.flags.PRIORITY:BooleanCheck:value=true": "bool-aagr"
+}

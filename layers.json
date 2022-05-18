@@ -1,0 +1,80 @@
+[
+  {
+    "id": "video-codecs",
+    "key": "vcd",
+    "name": "Video Codecs",
+    "pluginId": "browser-codecs"
+  },
+  {
+    "id": "audio-codecs",
+    "key": "acd",
+    "name": "Audio Codecs",
+    "pluginId": "browser-codecs"
+  },
+  {
+    "id": "document-object-model",
+    "key": "dom",
+    "name": "Document Object Model",
+    "pluginId": "browser-dom-environment"
+  },
+  {
+    "id": "fingerprints",
+    "key": "fng",
+    "name": "Fingerprints",
+    "pluginId": "browser-fingerprints"
+  },
+  {
+    "id": "asset-headers",
+    "key": "ash",
+    "name": "Asset Headers",
+    "pluginId": "http-assets"
+  },
+  {
+    "id": "basic-cookies",
+    "key": "bac",
+    "name": "Basic Cookies",
+    "pluginId": "http-basic-cookies"
+  },
+  {
+    "id": "basic-headers",
+    "key": "bah",
+    "name": "Basic Headers",
+    "pluginId": "http-basic-headers"
+  },
+  {
+    "id": "websocket-headers",
+    "key": "wsh",
+    "name": "Websocket Headers",
+    "pluginId": "http-websockets"
+  },
+  {
+    "id": "xhr-headers",
+    "key": "xhr",
+    "name": "Xhr Headers",
+    "pluginId": "http-xhr"
+  },
+  {
+    "id": "http2-session",
+    "key": "h2s",
+    "name": "Http2 Session",
+    "pluginId": "http2-session"
+  },
+  {
+    "id": "time-to-live",
+    "key": "ttl",
+    "name": "Time-to-Live",
+    "pluginId": "tcp"
+  },
+  {
+    "id": "window-size",
+    "key": "wns",
+    "name": "Window Size",
+    "pluginId": "tcp"
+  },
+  {
+    "id": "client-hello",
+    "key": "clh",
+    "name": "Client Hello",
+    "pluginId": "tls-clienthello"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "gfng-aaaa",
+    "checkName": "UniqueFingerprintCheck",
+    "checkType": "OverTime",
+    "checkMeta": {
+      "path": "fingerprint-js"
+    },
+    "args": [
+      "e85e335a00d2b469026fc424a42612af"
+    ]
+  },
+  {
+    "id": "sfng-aaaa",
+    "checkName": "SessionFingerprintCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "fingerprint-js"
+    },
+    "args": [
+      [
+        "e85e335a00d2b469026fc424a42612af",
+        "e85e335a00d2b469026fc424a42612af"
+      ]
+    ]
+  }
+]
