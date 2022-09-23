@@ -1067,6 +1067,17 @@
     ]
   },
   {
+    "id": "stra-aaea",
+    "checkName": "StringArrayCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "webRtcVideoCodecs"
+    },
+    "args": [
+      "90000-video/AV1"
+    ]
+  },
+  {
     "id": "stra-aadt",
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
@@ -1130,17 +1141,6 @@
     },
     "args": [
       "90000-video/VP9"
-    ]
-  },
-  {
-    "id": "stra-aaea",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "webRtcVideoCodecs"
-    },
-    "args": [
-      "90000-video/AV1"
     ]
   },
   {
@@ -1661,6 +1661,17 @@
     ]
   },
   {
+    "id": "stra-aaga",
+    "checkName": "StringArrayCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "webRtcAudioCodecs"
+    },
+    "args": [
+      "48000-audio/red"
+    ]
+  },
+  {
     "id": "stra-aafw",
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
@@ -1702,17 +1713,6 @@
     },
     "args": [
       "48000-audio/telephone-event"
-    ]
-  },
-  {
-    "id": "stra-aaga",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "webRtcAudioCodecs"
-    },
-    "args": [
-      "48000-audio/red"
     ]
   }
 ]

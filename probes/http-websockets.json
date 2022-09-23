@@ -312,11 +312,11 @@
     ]
   },
   {
-    "id": "aord-aduq",
+    "id": "aord-abgj",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:host",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:host",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -340,11 +340,11 @@
     ]
   },
   {
-    "id": "aord-adur",
+    "id": "aord-abgk",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:connection",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:connection",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -369,11 +369,11 @@
     ]
   },
   {
-    "id": "aord-adus",
+    "id": "aord-abgl",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:pragma",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:pragma",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -398,11 +398,11 @@
     ]
   },
   {
-    "id": "aord-adut",
+    "id": "aord-abgm",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:cache-control",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:cache-control",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -427,11 +427,11 @@
     ]
   },
   {
-    "id": "aord-aduu",
+    "id": "aord-abgn",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:user-agent",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:user-agent",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -456,11 +456,11 @@
     ]
   },
   {
-    "id": "aord-aduv",
+    "id": "aord-abgo",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:upgrade",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:upgrade",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -485,11 +485,11 @@
     ]
   },
   {
-    "id": "aord-aduw",
+    "id": "aord-abgp",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:origin",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:origin",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -514,11 +514,11 @@
     ]
   },
   {
-    "id": "aord-adux",
+    "id": "aord-abgq",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:sec-websocket-version",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:sec-websocket-version",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -543,11 +543,11 @@
     ]
   },
   {
-    "id": "aord-aduy",
+    "id": "aord-abgr",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:accept-encoding",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:accept-encoding",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -572,11 +572,11 @@
     ]
   },
   {
-    "id": "aord-aduz",
+    "id": "aord-abgs",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:accept-language",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:accept-language",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -601,11 +601,11 @@
     ]
   },
   {
-    "id": "aord-adva",
+    "id": "aord-abgt",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:sec-websocket-key",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:sec-websocket-key",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -630,11 +630,11 @@
     ]
   },
   {
-    "id": "aord-advb",
+    "id": "aord-abgu",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:sec-websocket-extensions",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:sec-websocket-extensions",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -658,11 +658,11 @@
     ]
   },
   {
-    "id": "aord-advo",
+    "id": "aord-abgv",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:host",
+      "path": "headers:same-site:WebsocketUpgrade_direct:host",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -686,11 +686,11 @@
     ]
   },
   {
-    "id": "aord-advp",
+    "id": "aord-abgw",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:connection",
+      "path": "headers:same-site:WebsocketUpgrade_direct:connection",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -715,11 +715,11 @@
     ]
   },
   {
-    "id": "aord-advq",
+    "id": "aord-abgx",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:pragma",
+      "path": "headers:same-site:WebsocketUpgrade_direct:pragma",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -744,11 +744,11 @@
     ]
   },
   {
-    "id": "aord-advr",
+    "id": "aord-abgy",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:cache-control",
+      "path": "headers:same-site:WebsocketUpgrade_direct:cache-control",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -773,11 +773,11 @@
     ]
   },
   {
-    "id": "aord-advs",
+    "id": "aord-abgz",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:user-agent",
+      "path": "headers:same-site:WebsocketUpgrade_direct:user-agent",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -802,11 +802,11 @@
     ]
   },
   {
-    "id": "aord-advt",
+    "id": "aord-abha",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:upgrade",
+      "path": "headers:same-site:WebsocketUpgrade_direct:upgrade",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -831,11 +831,11 @@
     ]
   },
   {
-    "id": "aord-advu",
+    "id": "aord-abhb",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:origin",
+      "path": "headers:same-site:WebsocketUpgrade_direct:origin",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -860,11 +860,11 @@
     ]
   },
   {
-    "id": "aord-advv",
+    "id": "aord-abhc",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:sec-websocket-version",
+      "path": "headers:same-site:WebsocketUpgrade_direct:sec-websocket-version",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -889,11 +889,11 @@
     ]
   },
   {
-    "id": "aord-advw",
+    "id": "aord-abhd",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:accept-encoding",
+      "path": "headers:same-site:WebsocketUpgrade_direct:accept-encoding",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -918,11 +918,11 @@
     ]
   },
   {
-    "id": "aord-advx",
+    "id": "aord-abhe",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:accept-language",
+      "path": "headers:same-site:WebsocketUpgrade_direct:accept-language",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -947,11 +947,11 @@
     ]
   },
   {
-    "id": "aord-advy",
+    "id": "aord-abhf",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:sec-websocket-key",
+      "path": "headers:same-site:WebsocketUpgrade_direct:sec-websocket-key",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -976,11 +976,11 @@
     ]
   },
   {
-    "id": "aord-advz",
+    "id": "aord-abhg",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:sec-websocket-extensions",
+      "path": "headers:same-site:WebsocketUpgrade_direct:sec-websocket-extensions",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1004,11 +1004,11 @@
     ]
   },
   {
-    "id": "aord-advc",
+    "id": "aord-abhh",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:host",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:host",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1032,11 +1032,11 @@
     ]
   },
   {
-    "id": "aord-advd",
+    "id": "aord-abhi",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:connection",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:connection",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1061,11 +1061,11 @@
     ]
   },
   {
-    "id": "aord-adve",
+    "id": "aord-abhj",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:pragma",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:pragma",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1090,11 +1090,11 @@
     ]
   },
   {
-    "id": "aord-advf",
+    "id": "aord-abhk",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:cache-control",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:cache-control",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1119,11 +1119,11 @@
     ]
   },
   {
-    "id": "aord-advg",
+    "id": "aord-abhl",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:user-agent",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:user-agent",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1148,11 +1148,11 @@
     ]
   },
   {
-    "id": "aord-advh",
+    "id": "aord-abhm",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:upgrade",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:upgrade",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1177,11 +1177,11 @@
     ]
   },
   {
-    "id": "aord-advi",
+    "id": "aord-abhn",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:origin",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:origin",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1206,11 +1206,11 @@
     ]
   },
   {
-    "id": "aord-advj",
+    "id": "aord-abho",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:sec-websocket-version",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:sec-websocket-version",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1235,11 +1235,11 @@
     ]
   },
   {
-    "id": "aord-advk",
+    "id": "aord-abhp",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:accept-encoding",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:accept-encoding",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1264,11 +1264,11 @@
     ]
   },
   {
-    "id": "aord-advl",
+    "id": "aord-abhq",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:accept-language",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:accept-language",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1293,11 +1293,11 @@
     ]
   },
   {
-    "id": "aord-advm",
+    "id": "aord-abhr",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:sec-websocket-key",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:sec-websocket-key",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1322,11 +1322,11 @@
     ]
   },
   {
-    "id": "aord-advn",
+    "id": "aord-abhs",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:sec-websocket-extensions",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:sec-websocket-extensions",
       "protocol": "http",
       "httpMethod": "GET"
     },
@@ -1350,11 +1350,11 @@
     ]
   },
   {
-    "id": "aord-adwa",
+    "id": "aord-abht",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:host",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:host",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1378,11 +1378,11 @@
     ]
   },
   {
-    "id": "aord-adwb",
+    "id": "aord-abhu",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:connection",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:connection",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1407,11 +1407,11 @@
     ]
   },
   {
-    "id": "aord-adwc",
+    "id": "aord-abhv",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:pragma",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:pragma",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1436,11 +1436,11 @@
     ]
   },
   {
-    "id": "aord-adwd",
+    "id": "aord-abhw",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:cache-control",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:cache-control",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1465,11 +1465,11 @@
     ]
   },
   {
-    "id": "aord-adwe",
+    "id": "aord-abhx",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:user-agent",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:user-agent",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1494,11 +1494,11 @@
     ]
   },
   {
-    "id": "aord-adwf",
+    "id": "aord-abhy",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:upgrade",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:upgrade",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1523,11 +1523,11 @@
     ]
   },
   {
-    "id": "aord-adwg",
+    "id": "aord-abhz",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:origin",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:origin",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1552,11 +1552,11 @@
     ]
   },
   {
-    "id": "aord-adwh",
+    "id": "aord-abia",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:sec-websocket-version",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:sec-websocket-version",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1581,11 +1581,11 @@
     ]
   },
   {
-    "id": "aord-adwi",
+    "id": "aord-abib",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:accept-encoding",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:accept-encoding",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1610,11 +1610,11 @@
     ]
   },
   {
-    "id": "aord-adwj",
+    "id": "aord-abic",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:accept-language",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:accept-language",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1639,11 +1639,11 @@
     ]
   },
   {
-    "id": "aord-adwk",
+    "id": "aord-abid",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:sec-websocket-key",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:sec-websocket-key",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1668,11 +1668,11 @@
     ]
   },
   {
-    "id": "aord-adwl",
+    "id": "aord-abie",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:WebsocketUpgrade:sec-websocket-extensions",
+      "path": "headers:same-origin:WebsocketUpgrade_direct:sec-websocket-extensions",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1696,11 +1696,11 @@
     ]
   },
   {
-    "id": "aord-adwm",
+    "id": "aord-abif",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:host",
+      "path": "headers:same-site:WebsocketUpgrade_direct:host",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1724,11 +1724,11 @@
     ]
   },
   {
-    "id": "aord-adwn",
+    "id": "aord-abig",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:connection",
+      "path": "headers:same-site:WebsocketUpgrade_direct:connection",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1753,11 +1753,11 @@
     ]
   },
   {
-    "id": "aord-adwo",
+    "id": "aord-abih",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:pragma",
+      "path": "headers:same-site:WebsocketUpgrade_direct:pragma",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1782,11 +1782,11 @@
     ]
   },
   {
-    "id": "aord-adwp",
+    "id": "aord-abii",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:cache-control",
+      "path": "headers:same-site:WebsocketUpgrade_direct:cache-control",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1811,11 +1811,11 @@
     ]
   },
   {
-    "id": "aord-adwq",
+    "id": "aord-abij",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:user-agent",
+      "path": "headers:same-site:WebsocketUpgrade_direct:user-agent",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1840,11 +1840,11 @@
     ]
   },
   {
-    "id": "aord-adwr",
+    "id": "aord-abik",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:upgrade",
+      "path": "headers:same-site:WebsocketUpgrade_direct:upgrade",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1869,11 +1869,11 @@
     ]
   },
   {
-    "id": "aord-adws",
+    "id": "aord-abil",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:origin",
+      "path": "headers:same-site:WebsocketUpgrade_direct:origin",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1898,11 +1898,11 @@
     ]
   },
   {
-    "id": "aord-adwt",
+    "id": "aord-abim",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:sec-websocket-version",
+      "path": "headers:same-site:WebsocketUpgrade_direct:sec-websocket-version",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1927,11 +1927,11 @@
     ]
   },
   {
-    "id": "aord-adwu",
+    "id": "aord-abin",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:accept-encoding",
+      "path": "headers:same-site:WebsocketUpgrade_direct:accept-encoding",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1956,11 +1956,11 @@
     ]
   },
   {
-    "id": "aord-adwv",
+    "id": "aord-abio",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:accept-language",
+      "path": "headers:same-site:WebsocketUpgrade_direct:accept-language",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -1985,11 +1985,11 @@
     ]
   },
   {
-    "id": "aord-adww",
+    "id": "aord-abip",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:sec-websocket-key",
+      "path": "headers:same-site:WebsocketUpgrade_direct:sec-websocket-key",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2014,11 +2014,11 @@
     ]
   },
   {
-    "id": "aord-adwx",
+    "id": "aord-abiq",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:WebsocketUpgrade:sec-websocket-extensions",
+      "path": "headers:same-site:WebsocketUpgrade_direct:sec-websocket-extensions",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2042,11 +2042,11 @@
     ]
   },
   {
-    "id": "aord-adwy",
+    "id": "aord-abir",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:host",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:host",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2070,11 +2070,11 @@
     ]
   },
   {
-    "id": "aord-adwz",
+    "id": "aord-abis",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:connection",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:connection",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2099,11 +2099,11 @@
     ]
   },
   {
-    "id": "aord-adxa",
+    "id": "aord-abit",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:pragma",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:pragma",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2128,11 +2128,11 @@
     ]
   },
   {
-    "id": "aord-adxb",
+    "id": "aord-abiu",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:cache-control",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:cache-control",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2157,11 +2157,11 @@
     ]
   },
   {
-    "id": "aord-adxc",
+    "id": "aord-abiv",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:user-agent",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:user-agent",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2186,11 +2186,11 @@
     ]
   },
   {
-    "id": "aord-adxd",
+    "id": "aord-abiw",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:upgrade",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:upgrade",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2215,11 +2215,11 @@
     ]
   },
   {
-    "id": "aord-adxe",
+    "id": "aord-abix",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:origin",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:origin",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2244,11 +2244,11 @@
     ]
   },
   {
-    "id": "aord-adxf",
+    "id": "aord-abiy",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:sec-websocket-version",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:sec-websocket-version",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2273,11 +2273,11 @@
     ]
   },
   {
-    "id": "aord-adxg",
+    "id": "aord-abiz",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:accept-encoding",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:accept-encoding",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2302,11 +2302,11 @@
     ]
   },
   {
-    "id": "aord-adxh",
+    "id": "aord-abja",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:accept-language",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:accept-language",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2331,11 +2331,11 @@
     ]
   },
   {
-    "id": "aord-adxi",
+    "id": "aord-abjb",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:sec-websocket-key",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:sec-websocket-key",
       "protocol": "https",
       "httpMethod": "GET"
     },
@@ -2360,11 +2360,11 @@
     ]
   },
   {
-    "id": "aord-adxj",
+    "id": "aord-abjc",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:WebsocketUpgrade:sec-websocket-extensions",
+      "path": "headers:cross-site:WebsocketUpgrade_direct:sec-websocket-extensions",
       "protocol": "https",
       "httpMethod": "GET"
     },

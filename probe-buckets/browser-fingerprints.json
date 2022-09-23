@@ -15,7 +15,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-11--chrome-89-0"
+      "mac-os-10-13--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -28,7 +28,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-11--chrome-96-0"
+      "mac-os-10-14--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -41,7 +41,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-11--chrome-97-0"
+      "mac-os-10-15--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -54,7 +54,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-11--chrome-98-0"
+      "mac-os-11--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -67,7 +67,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-12--chrome-89-0"
+      "mac-os-12--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -80,7 +80,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-12--chrome-96-0"
+      "windows-10--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -93,7 +93,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-12--chrome-97-0"
+      "windows-11--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -106,7 +106,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-12--chrome-98-0"
+      "windows-7--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -119,7 +119,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-13--chrome-89-0"
+      "windows-8--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -132,501 +132,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-10-13--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1012",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-13--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1013",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-13--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1014",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-14--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1015",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-14--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1016",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-14--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1017",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-14--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1018",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-15--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1019",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-15--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1020",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-15--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1021",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-10-15--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1022",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-11--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1023",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-11--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1024",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-11--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1025",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-11--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1026",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-12--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1027",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-12--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1028",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-12--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1029",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "mac-os-12--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1030",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1031",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1032",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1033",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1034",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1035",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1036",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1037",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1038",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-7--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1039",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-7--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1040",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-7--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1041",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-7--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1042",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-8--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1043",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-8--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1044",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-8--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1045",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-8--chrome-98-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1046",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-8-1--chrome-89-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1047",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-8-1--chrome-96-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1048",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-8-1--chrome-97-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1049",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-8-1--chrome-98-0"
+      "windows-8-1--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",

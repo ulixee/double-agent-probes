@@ -360,6 +360,18 @@
     ]
   },
   {
+    "id": "numr-aact",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      17513,
+      "UNKNOWN"
+    ]
+  },
+  {
     "id": "numr-aacp",
     "checkName": "NumberCheck",
     "checkType": "Individual",
@@ -559,40 +571,6 @@
     },
     "args": [
       true
-    ]
-  },
-  {
-    "id": "strg-abwf",
-    "checkName": "StringCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.supported_versions"
-    },
-    "args": [
-      "TLS 1.1 (770)"
-    ]
-  },
-  {
-    "id": "strg-abwg",
-    "checkName": "StringCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.supported_versions"
-    },
-    "args": [
-      "TLS 1.0 (769)"
-    ]
-  },
-  {
-    "id": "numr-aact",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.decimal"
-    },
-    "args": [
-      17513,
-      "UNKNOWN"
     ]
   }
 ]
