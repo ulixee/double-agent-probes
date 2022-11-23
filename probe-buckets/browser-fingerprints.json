@@ -80,7 +80,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-10--chrome-105-0"
+      "mac-os-13--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -93,7 +93,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-11--chrome-105-0"
+      "windows-10--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -106,7 +106,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-7--chrome-105-0"
+      "windows-11--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -119,7 +119,7 @@
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-8--chrome-105-0"
+      "windows-7--chrome-105-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -129,6 +129,19 @@
   },
   {
     "id": "fng-1011",
+    "layerId": "fingerprints",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "sfng-aaaa"
+    ]
+  },
+  {
+    "id": "fng-1012",
     "layerId": "fingerprints",
     "checkType": "Individual",
     "userAgentIds": [
