@@ -1,0 +1,314 @@
+[
+  {
+    "id": "ttl-1001",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-13--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaaa"
+    ]
+  },
+  {
+    "id": "ttl-1002",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-14--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaaa"
+    ]
+  },
+  {
+    "id": "ttl-1003",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-15--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaaa"
+    ]
+  },
+  {
+    "id": "ttl-1004",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-11--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaaa"
+    ]
+  },
+  {
+    "id": "ttl-1005",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-12--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaaa"
+    ]
+  },
+  {
+    "id": "ttl-1006",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-13--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaaa"
+    ]
+  },
+  {
+    "id": "ttl-1007",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-14--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaaa"
+    ]
+  },
+  {
+    "id": "ttl-1008",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-10--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaab"
+    ]
+  },
+  {
+    "id": "ttl-1009",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-11--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaab"
+    ]
+  },
+  {
+    "id": "ttl-1010",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-7--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaab"
+    ]
+  },
+  {
+    "id": "ttl-1011",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaab"
+    ]
+  },
+  {
+    "id": "ttl-1012",
+    "layerId": "time-to-live",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8-1--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "eval-aaab"
+    ]
+  },
+  {
+    "id": "wns-1001",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-13--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaaa"
+    ]
+  },
+  {
+    "id": "wns-1002",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-14--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaaa"
+    ]
+  },
+  {
+    "id": "wns-1003",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-10-15--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaaa"
+    ]
+  },
+  {
+    "id": "wns-1004",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-11--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaaa"
+    ]
+  },
+  {
+    "id": "wns-1005",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-12--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaaa"
+    ]
+  },
+  {
+    "id": "wns-1006",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-13--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaaa"
+    ]
+  },
+  {
+    "id": "wns-1007",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-14--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaaa"
+    ]
+  },
+  {
+    "id": "wns-1008",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-10--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaab"
+    ]
+  },
+  {
+    "id": "wns-1009",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-11--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaab"
+    ]
+  },
+  {
+    "id": "wns-1010",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-7--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaac"
+    ]
+  },
+  {
+    "id": "wns-1011",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaac"
+    ]
+  },
+  {
+    "id": "wns-1012",
+    "layerId": "window-size",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-8-1--chrome-105-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "evls-aaac"
+    ]
+  }
+]
