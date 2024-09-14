@@ -155,5 +155,9 @@
   "webRtcAudioCodecs:StringArrayCheck:16000-audio/telephone-event": "stra-aafx",
   "webRtcAudioCodecs:StringArrayCheck:32000-audio/telephone-event": "stra-aafy",
   "webRtcAudioCodecs:StringArrayCheck:48000-audio/telephone-event": "stra-aafz",
-  "webRtcAudioCodecs:StringArrayCheck:48000-audio/red": "stra-aaga"
+  "webRtcAudioCodecs:StringArrayCheck:48000-audio/red": "stra-aaga",
+  "videoSupport.probablyPlays:StringArrayCheck:video/mp4;codecs=hev1.1.6.L150.B0": "stra-aaaa",
+  "videoSupport.probablyPlays:StringArrayCheck:video/mp4;codecs=hev1.1.6.L153.B0": "stra-aaab",
+  "videoSupport.probablyPlays:StringArrayCheck:video/mp4;codecs=hev1.2.6.L150.B0": "stra-aaac",
+  "videoSupport.probablyPlays:StringArrayCheck:video/mp4;codecs=hev1.2.6.L153.B0": "stra-aaad"
 }

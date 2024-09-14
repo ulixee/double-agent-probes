@@ -18876,7 +18876,7 @@
     ]
   },
   {
-    "id": "dval-aajv",
+    "id": "dval-aabc",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -18886,7 +18886,7 @@
     },
     "args": [
       [
-        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
       ]
     ]
   },
@@ -18951,7 +18951,7 @@
     ]
   },
   {
-    "id": "dval-aajw",
+    "id": "dval-aabd",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -18961,7 +18961,7 @@
     },
     "args": [
       [
-        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
       ]
     ]
   },
@@ -19011,21 +19011,6 @@
     ]
   },
   {
-    "id": "dval-aaak",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\""
-      ]
-    ]
-  },
-  {
     "id": "dval-aakc",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -19056,7 +19041,7 @@
     ]
   },
   {
-    "id": "dval-aajx",
+    "id": "dval-aabf",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19066,7 +19051,7 @@
     },
     "args": [
       [
-        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
       ]
     ]
   },
@@ -19134,7 +19119,7 @@
     ]
   },
   {
-    "id": "dval-aaiu",
+    "id": "dval-aabg",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19144,7 +19129,7 @@
     },
     "args": [
       [
-        "gzip, deflate, br"
+        "gzip, deflate, br, zstd"
       ]
     ]
   },
@@ -19179,21 +19164,6 @@
     ]
   },
   {
-    "id": "dval-aaal",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\""
-      ]
-    ]
-  },
-  {
     "id": "dval-aake",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -19224,7 +19194,7 @@
     ]
   },
   {
-    "id": "dval-aajy",
+    "id": "dval-aabi",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19234,7 +19204,7 @@
     },
     "args": [
       [
-        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
       ]
     ]
   },
@@ -19301,7 +19271,7 @@
     ]
   },
   {
-    "id": "dval-aajd",
+    "id": "dval-aabj",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19311,7 +19281,7 @@
     },
     "args": [
       [
-        "gzip, deflate, br"
+        "gzip, deflate, br, zstd"
       ]
     ]
   },
@@ -19327,21 +19297,6 @@
     "args": [
       [
         "en-US,en;q=0.9"
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaam",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\""
       ]
     ]
   },
@@ -19376,7 +19331,7 @@
     ]
   },
   {
-    "id": "dval-aajz",
+    "id": "dval-aabl",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19386,7 +19341,7 @@
     },
     "args": [
       [
-        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
       ]
     ]
   },
@@ -19454,7 +19409,7 @@
     ]
   },
   {
-    "id": "dval-aajl",
+    "id": "dval-aabm",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19464,7 +19419,7 @@
     },
     "args": [
       [
-        "gzip, deflate, br"
+        "gzip, deflate, br, zstd"
       ]
     ]
   },
@@ -19480,21 +19435,6 @@
     "args": [
       [
         "en-US,en;q=0.9"
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaan",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"105\", \"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"105\""
       ]
     ]
   },
@@ -19529,7 +19469,7 @@
     ]
   },
   {
-    "id": "dval-aaka",
+    "id": "dval-aabo",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19539,7 +19479,7 @@
     },
     "args": [
       [
-        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"
+        "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"
       ]
     ]
   },
@@ -19606,7 +19546,7 @@
     ]
   },
   {
-    "id": "dval-aajt",
+    "id": "dval-aabp",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19616,7 +19556,7 @@
     },
     "args": [
       [
-        "gzip, deflate, br"
+        "gzip, deflate, br, zstd"
       ]
     ]
   },
@@ -19632,6 +19572,66 @@
     "args": [
       [
         "en-US,en;q=0.9"
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabe",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabh",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabk",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabn",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
       ]
     ]
   },
@@ -19692,6 +19692,66 @@
     "args": [
       [
         "\"macOS\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabq",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabr",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabs",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabt",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
       ]
     ]
   },

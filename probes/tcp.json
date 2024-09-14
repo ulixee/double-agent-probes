@@ -51,19 +51,5 @@
       ],
       64240
     ]
-  },
-  {
-    "id": "evls-aaac",
-    "checkName": "ExpectedValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "window-sizes"
-    },
-    "args": [
-      [
-        8192
-      ],
-      8192
-    ]
   }
 ]

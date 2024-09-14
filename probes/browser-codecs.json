@@ -11,17 +11,6 @@
     ]
   },
   {
-    "id": "stra-aaab",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "videoSupport.probablyPlays"
-    },
-    "args": [
-      "application/ogg;codecs=theora"
-    ]
-  },
-  {
     "id": "stra-aaac",
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
@@ -327,17 +316,6 @@
     },
     "args": [
       "video/ogg;codecs=opus"
-    ]
-  },
-  {
-    "id": "stra-aabe",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "videoSupport.probablyPlays"
-    },
-    "args": [
-      "video/ogg;codecs=theora"
     ]
   },
   {
@@ -1144,6 +1122,17 @@
     ]
   },
   {
+    "id": "stra-aaab",
+    "checkName": "StringArrayCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "videoSupport.probablyPlays"
+    },
+    "args": [
+      "video/mp4;codecs=hev1.1.6.L153.B0"
+    ]
+  },
+  {
     "id": "stra-aaeb",
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
@@ -1152,17 +1141,6 @@
     },
     "args": [
       "application/ogg;codecs=opus"
-    ]
-  },
-  {
-    "id": "stra-aaec",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "audioSupport.probablyPlays"
-    },
-    "args": [
-      "application/ogg;codecs=theora"
     ]
   },
   {
@@ -1573,28 +1551,6 @@
     ]
   },
   {
-    "id": "stra-aafo",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "webRtcAudioCodecs"
-    },
-    "args": [
-      "16000-audio/CN"
-    ]
-  },
-  {
-    "id": "stra-aafp",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "webRtcAudioCodecs"
-    },
-    "args": [
-      "32000-audio/CN"
-    ]
-  },
-  {
     "id": "stra-aafq",
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
@@ -1603,28 +1559,6 @@
     },
     "args": [
       "8000-audio/G722"
-    ]
-  },
-  {
-    "id": "stra-aafr",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "webRtcAudioCodecs"
-    },
-    "args": [
-      "16000-audio/ISAC"
-    ]
-  },
-  {
-    "id": "stra-aafs",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "webRtcAudioCodecs"
-    },
-    "args": [
-      "32000-audio/ISAC"
     ]
   },
   {
@@ -1680,28 +1614,6 @@
     },
     "args": [
       "8000-audio/telephone-event"
-    ]
-  },
-  {
-    "id": "stra-aafx",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "webRtcAudioCodecs"
-    },
-    "args": [
-      "16000-audio/telephone-event"
-    ]
-  },
-  {
-    "id": "stra-aafy",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "webRtcAudioCodecs"
-    },
-    "args": [
-      "32000-audio/telephone-event"
     ]
   },
   {

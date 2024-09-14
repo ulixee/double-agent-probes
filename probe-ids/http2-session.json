@@ -7,5 +7,7 @@
   "frame.flags.END_HEADERS:BooleanCheck:value=false": "bool-aago",
   "frame.flags.PADDED:BooleanCheck:value=true": "bool-aagp",
   "frame.flags.RESERVED5:BooleanCheck:value=false": "bool-aagq",
-  "frame.flags.PRIORITY:BooleanCheck:value=true": "bool-aagr"
+  "frame.flags.PRIORITY:BooleanCheck:value=true": "bool-aagr",
+  "sessions:NumberCheck:2": "numr-aaaa",
+  "sessions:NumberCheck:3": "numr-aaab"
 }

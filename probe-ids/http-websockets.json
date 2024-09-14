@@ -277,5 +277,6 @@
   "https:GET:headers:cross-site:WebsocketUpgrade:direct:nocookie:accept-encoding:ArrayOrderIndexCheck:host,connection,pragma,cache-control,user-agent,upgrade,origin,sec-websocket-version;accept-language,sec-websocket-key,sec-websocket-extensions": "aord-abpa",
   "https:GET:headers:cross-site:WebsocketUpgrade:direct:nocookie:accept-language:ArrayOrderIndexCheck:host,connection,pragma,cache-control,user-agent,upgrade,origin,sec-websocket-version,accept-encoding;sec-websocket-key,sec-websocket-extensions": "aord-abpb",
   "https:GET:headers:cross-site:WebsocketUpgrade:direct:nocookie:sec-websocket-key:ArrayOrderIndexCheck:host,connection,pragma,cache-control,user-agent,upgrade,origin,sec-websocket-version,accept-encoding,accept-language;sec-websocket-extensions": "aord-abpc",
-  "https:GET:headers:cross-site:WebsocketUpgrade:direct:nocookie:sec-websocket-extensions:ArrayOrderIndexCheck:host,connection,pragma,cache-control,user-agent,upgrade,origin,sec-websocket-version,accept-encoding,accept-language,sec-websocket-key;": "aord-abpd"
+  "https:GET:headers:cross-site:WebsocketUpgrade:direct:nocookie:sec-websocket-extensions:ArrayOrderIndexCheck:host,connection,pragma,cache-control,user-agent,upgrade,origin,sec-websocket-version,accept-encoding,accept-language,sec-websocket-key;": "aord-abpd",
+  "https:GET:WebsocketUpgrade:accept-encoding:DefaultValueCheck:gzip, deflate, br, zstd": "dval-aabu"
 }
