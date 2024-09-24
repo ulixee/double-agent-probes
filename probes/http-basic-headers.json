@@ -19576,7 +19576,7 @@
     ]
   },
   {
-    "id": "dval-aabe",
+    "id": "dval-aaau",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19586,12 +19586,12 @@
     },
     "args": [
       [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
       ]
     ]
   },
   {
-    "id": "dval-aabh",
+    "id": "dval-aaav",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19601,12 +19601,12 @@
     },
     "args": [
       [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
       ]
     ]
   },
   {
-    "id": "dval-aabk",
+    "id": "dval-aaaw",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19616,12 +19616,12 @@
     },
     "args": [
       [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
       ]
     ]
   },
   {
-    "id": "dval-aabn",
+    "id": "dval-aaax",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19631,7 +19631,7 @@
     },
     "args": [
       [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
       ]
     ]
   },
@@ -19696,7 +19696,7 @@
     ]
   },
   {
-    "id": "dval-aabq",
+    "id": "dval-aaay",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19706,12 +19706,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aabr",
+    "id": "dval-aaaz",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19721,12 +19721,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aabs",
+    "id": "dval-aaba",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19736,12 +19736,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aabt",
+    "id": "dval-aabb",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -19751,7 +19751,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },

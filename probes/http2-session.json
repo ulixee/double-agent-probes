@@ -1,13 +1,13 @@
 [
   {
-    "id": "numr-aaab",
+    "id": "numr-aabh",
     "checkName": "NumberCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "sessions"
     },
     "args": [
-      3,
+      1,
       null
     ]
   },
@@ -99,30 +99,6 @@
     },
     "args": [
       true
-    ]
-  },
-  {
-    "id": "numr-aaaa",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "sessions"
-    },
-    "args": [
-      2,
-      null
-    ]
-  },
-  {
-    "id": "numr-aabh",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "sessions"
-    },
-    "args": [
-      1,
-      null
     ]
   }
 ]

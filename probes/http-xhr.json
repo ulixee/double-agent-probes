@@ -4,9 +4,9 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "https",
-      "httpMethod": "GET"
+      "httpMethod": "POST"
     },
     "args": [
       [
@@ -31,9 +31,9 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-platform",
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-platform",
       "protocol": "https",
-      "httpMethod": "GET"
+      "httpMethod": "POST"
     },
     "args": [
       [
@@ -956,16 +956,16 @@
     ]
   },
   {
-    "id": "strc-aanc",
+    "id": "strc-aaig",
     "checkName": "StringCaseCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "sec-ch-ua-platform",
+      "path": "content-type",
       "protocol": "https",
       "httpMethod": "POST"
     },
     "args": [
-      "sec-ch-ua-platform"
+      "Content-Type"
     ]
   },
   {
@@ -995,16 +995,16 @@
     ]
   },
   {
-    "id": "strc-aaig",
+    "id": "strc-aanc",
     "checkName": "StringCaseCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "content-type",
+      "path": "sec-ch-ua-platform",
       "protocol": "https",
       "httpMethod": "POST"
     },
     "args": [
-      "Content-Type"
+      "sec-ch-ua-platform"
     ]
   },
   {
@@ -1619,16 +1619,16 @@
     ]
   },
   {
-    "id": "strc-aane",
+    "id": "strc-aalu",
     "checkName": "StringCaseCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "sec-ch-ua-platform",
+      "path": "content-type",
       "protocol": "http2",
       "httpMethod": "POST"
     },
     "args": [
-      "sec-ch-ua-platform"
+      "content-type"
     ]
   },
   {
@@ -1658,16 +1658,16 @@
     ]
   },
   {
-    "id": "strc-aalu",
+    "id": "strc-aane",
     "checkName": "StringCaseCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "content-type",
+      "path": "sec-ch-ua-platform",
       "protocol": "http2",
       "httpMethod": "POST"
     },
     "args": [
-      "content-type"
+      "sec-ch-ua-platform"
     ]
   },
   {
@@ -4254,56 +4254,6 @@
     ]
   },
   {
-    "id": "aord-absw",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection"
-        ],
-        [
-          "sec-ch-ua-platform",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-absx",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
     "id": "aord-absy",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
@@ -4444,6 +4394,58 @@
         [
           "sec-ch-ua-mobile",
           "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abte",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abtf",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile"
+        ],
+        [
           "origin",
           "sec-fetch-site",
           "referer",
@@ -5046,6 +5048,58 @@
     ]
   },
   {
+    "id": "aord-abuf",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abug",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile"
+        ],
+        [
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "aord-abuh",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
@@ -5175,11 +5229,243 @@
     ]
   },
   {
-    "id": "aord-aaaa",
+    "id": "aord-abum",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "headers:same-origin:Fetch:direct:nocookie:host",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [],
+        [
+          "connection",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abun",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:connection",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host"
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abuo",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abup",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile"
+        ],
+        [
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abuq",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:origin",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform"
+        ],
+        [
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abur",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-fetch-site",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin"
+        ],
+        [
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abus",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:referer",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site"
+        ],
+        [
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abut",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:accept-encoding",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer"
+        ],
+        [
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abuu",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:accept-language",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding"
+        ],
+        []
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaaa",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:XHR:direct:nocookie:host",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5204,7 +5490,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:connection",
+      "path": "headers:same-origin:XHR:direct:nocookie:connection",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5230,7 +5516,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "path": "headers:same-origin:XHR:direct:nocookie:sec-ch-ua-platform",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5257,7 +5543,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:same-origin:XHR:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5284,7 +5570,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:origin",
+      "path": "headers:same-origin:XHR:direct:nocookie:origin",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5310,7 +5596,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:sec-fetch-site",
+      "path": "headers:same-origin:XHR:direct:nocookie:sec-fetch-site",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5336,7 +5622,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:referer",
+      "path": "headers:same-origin:XHR:direct:nocookie:referer",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5362,7 +5648,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:accept-encoding",
+      "path": "headers:same-origin:XHR:direct:nocookie:accept-encoding",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5388,7 +5674,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:accept-language",
+      "path": "headers:same-origin:XHR:direct:nocookie:accept-language",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5409,11 +5695,11 @@
     ]
   },
   {
-    "id": "aord-abuv",
+    "id": "aord-abve",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:host",
+      "path": "headers:same-site:Fetch:direct:nocookie:host",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5434,11 +5720,11 @@
     ]
   },
   {
-    "id": "aord-abuw",
+    "id": "aord-abvf",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:connection",
+      "path": "headers:same-site:Fetch:direct:nocookie:connection",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5460,63 +5746,11 @@
     ]
   },
   {
-    "id": "aord-abux",
+    "id": "aord-abvi",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection"
-        ],
-        [
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abuy",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abuz",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:origin",
+      "path": "headers:same-site:Fetch:direct:nocookie:origin",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5538,11 +5772,11 @@
     ]
   },
   {
-    "id": "aord-abva",
+    "id": "aord-abvj",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:sec-fetch-site",
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-fetch-site",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5564,11 +5798,11 @@
     ]
   },
   {
-    "id": "aord-abvb",
+    "id": "aord-abvk",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:referer",
+      "path": "headers:same-site:Fetch:direct:nocookie:referer",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5590,11 +5824,11 @@
     ]
   },
   {
-    "id": "aord-abvc",
+    "id": "aord-abvl",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:accept-encoding",
+      "path": "headers:same-site:Fetch:direct:nocookie:accept-encoding",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5616,11 +5850,11 @@
     ]
   },
   {
-    "id": "aord-abvd",
+    "id": "aord-abvm",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:accept-language",
+      "path": "headers:same-site:Fetch:direct:nocookie:accept-language",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5645,7 +5879,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:host",
+      "path": "headers:same-site:XHR:direct:nocookie:host",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5670,7 +5904,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:connection",
+      "path": "headers:same-site:XHR:direct:nocookie:connection",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5692,11 +5926,65 @@
     ]
   },
   {
+    "id": "aord-aaal",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile"
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaam",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-platform"
+        ],
+        [
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language",
+          "sec-ch-ua-platform"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "aord-aaan",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:origin",
+      "path": "headers:same-site:XHR:direct:nocookie:origin",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5722,7 +6010,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-fetch-site",
+      "path": "headers:same-site:XHR:direct:nocookie:sec-fetch-site",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5748,7 +6036,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:referer",
+      "path": "headers:same-site:XHR:direct:nocookie:referer",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5774,7 +6062,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:accept-encoding",
+      "path": "headers:same-site:XHR:direct:nocookie:accept-encoding",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5800,7 +6088,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:accept-language",
+      "path": "headers:same-site:XHR:direct:nocookie:accept-language",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5821,11 +6109,11 @@
     ]
   },
   {
-    "id": "aord-abvn",
+    "id": "aord-abvw",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:host",
+      "path": "headers:cross-site:Fetch:direct:nocookie:host",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5846,11 +6134,11 @@
     ]
   },
   {
-    "id": "aord-abvo",
+    "id": "aord-abvx",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:connection",
+      "path": "headers:cross-site:Fetch:direct:nocookie:connection",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5872,11 +6160,11 @@
     ]
   },
   {
-    "id": "aord-abvp",
+    "id": "aord-abvy",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5898,11 +6186,11 @@
     ]
   },
   {
-    "id": "aord-abvq",
+    "id": "aord-abvz",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-platform",
+      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5924,11 +6212,11 @@
     ]
   },
   {
-    "id": "aord-abvr",
+    "id": "aord-abwa",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:origin",
+      "path": "headers:cross-site:Fetch:direct:nocookie:origin",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5950,11 +6238,11 @@
     ]
   },
   {
-    "id": "aord-abvs",
+    "id": "aord-abwb",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-fetch-site",
+      "path": "headers:cross-site:Fetch:direct:nocookie:sec-fetch-site",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -5976,11 +6264,11 @@
     ]
   },
   {
-    "id": "aord-abvt",
+    "id": "aord-abwc",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:referer",
+      "path": "headers:cross-site:Fetch:direct:nocookie:referer",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6002,11 +6290,11 @@
     ]
   },
   {
-    "id": "aord-abvu",
+    "id": "aord-abwd",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:accept-encoding",
+      "path": "headers:cross-site:Fetch:direct:nocookie:accept-encoding",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6028,11 +6316,11 @@
     ]
   },
   {
-    "id": "aord-abvv",
+    "id": "aord-abwe",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:accept-language",
+      "path": "headers:cross-site:Fetch:direct:nocookie:accept-language",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6057,7 +6345,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:host",
+      "path": "headers:cross-site:XHR:direct:nocookie:host",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6082,7 +6370,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:connection",
+      "path": "headers:cross-site:XHR:direct:nocookie:connection",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6108,7 +6396,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "path": "headers:cross-site:XHR:direct:nocookie:sec-ch-ua-platform",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6135,7 +6423,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:cross-site:XHR:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6162,7 +6450,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:origin",
+      "path": "headers:cross-site:XHR:direct:nocookie:origin",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6188,7 +6476,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-fetch-site",
+      "path": "headers:cross-site:XHR:direct:nocookie:sec-fetch-site",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6214,7 +6502,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:referer",
+      "path": "headers:cross-site:XHR:direct:nocookie:referer",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6240,7 +6528,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:accept-encoding",
+      "path": "headers:cross-site:XHR:direct:nocookie:accept-encoding",
       "protocol": "https",
       "httpMethod": "POST"
     },
@@ -6266,238 +6554,6 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:accept-language",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-platform",
-          "sec-ch-ua-mobile",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding"
-        ],
-        []
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwf",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:host",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [],
-        [
-          "connection",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwg",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:connection",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host"
-        ],
-        [
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwh",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection"
-        ],
-        [
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwi",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwj",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:origin",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform"
-        ],
-        [
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwk",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:sec-fetch-site",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin"
-        ],
-        [
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwl",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:referer",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site"
-        ],
-        [
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwm",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:accept-encoding",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer"
-        ],
-        [
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abwn",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
       "path": "headers:cross-site:XHR:direct:nocookie:accept-language",
       "protocol": "https",
       "httpMethod": "POST"
@@ -6507,8 +6563,8 @@
         [
           "host",
           "connection",
-          "sec-ch-ua-mobile",
           "sec-ch-ua-platform",
+          "sec-ch-ua-mobile",
           "origin",
           "sec-fetch-site",
           "referer",
@@ -8438,6 +8494,62 @@
     ]
   },
   {
+    "id": "aord-abzl",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abzm",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile"
+        ],
+        [
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "aord-abzn",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
@@ -8577,11 +8689,317 @@
     ]
   },
   {
-    "id": "aord-aabb",
+    "id": "aord-abzs",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "headers:same-origin:Fetch:direct:nocookie::method",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [],
+        [
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abzt",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie::authority",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method"
+        ],
+        [
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abzu",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie::scheme",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority"
+        ],
+        [
+          ":path",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abzv",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie::path",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme"
+        ],
+        [
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abzw",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abzx",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile"
+        ],
+        [
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abzy",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:origin",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform"
+        ],
+        [
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abzz",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-fetch-site",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin"
+        ],
+        [
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-acaa",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:referer",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site"
+        ],
+        [
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-acab",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:accept-encoding",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer"
+        ],
+        [
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-acac",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:accept-language",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile",
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding"
+        ],
+        []
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabb",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:XHR:direct:nocookie::method",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8608,7 +9026,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie::authority",
+      "path": "headers:same-origin:XHR:direct:nocookie::authority",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8636,7 +9054,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie::scheme",
+      "path": "headers:same-origin:XHR:direct:nocookie::scheme",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8664,7 +9082,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie::path",
+      "path": "headers:same-origin:XHR:direct:nocookie::path",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8692,7 +9110,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "path": "headers:same-origin:XHR:direct:nocookie:sec-ch-ua-platform",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8721,7 +9139,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:same-origin:XHR:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8750,7 +9168,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:origin",
+      "path": "headers:same-origin:XHR:direct:nocookie:origin",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8778,7 +9196,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:sec-fetch-site",
+      "path": "headers:same-origin:XHR:direct:nocookie:sec-fetch-site",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8806,7 +9224,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:referer",
+      "path": "headers:same-origin:XHR:direct:nocookie:referer",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8834,7 +9252,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:accept-encoding",
+      "path": "headers:same-origin:XHR:direct:nocookie:accept-encoding",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8862,7 +9280,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:Fetch:direct:nocookie:accept-language",
+      "path": "headers:same-origin:XHR:direct:nocookie:accept-language",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8885,11 +9303,11 @@
     ]
   },
   {
-    "id": "aord-acad",
+    "id": "aord-acao",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie::method",
+      "path": "headers:same-site:Fetch:direct:nocookie::method",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8912,11 +9330,11 @@
     ]
   },
   {
-    "id": "aord-acae",
+    "id": "aord-acap",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie::authority",
+      "path": "headers:same-site:Fetch:direct:nocookie::authority",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8940,11 +9358,11 @@
     ]
   },
   {
-    "id": "aord-acaf",
+    "id": "aord-acaq",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie::scheme",
+      "path": "headers:same-site:Fetch:direct:nocookie::scheme",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8968,11 +9386,11 @@
     ]
   },
   {
-    "id": "aord-acag",
+    "id": "aord-acar",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie::path",
+      "path": "headers:same-site:Fetch:direct:nocookie::path",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -8996,11 +9414,11 @@
     ]
   },
   {
-    "id": "aord-acah",
+    "id": "aord-acas",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9024,11 +9442,11 @@
     ]
   },
   {
-    "id": "aord-acai",
+    "id": "aord-acat",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:sec-ch-ua-platform",
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-platform",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9052,11 +9470,11 @@
     ]
   },
   {
-    "id": "aord-acaj",
+    "id": "aord-acau",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:origin",
+      "path": "headers:same-site:Fetch:direct:nocookie:origin",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9080,11 +9498,11 @@
     ]
   },
   {
-    "id": "aord-acak",
+    "id": "aord-acav",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:sec-fetch-site",
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-fetch-site",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9108,11 +9526,11 @@
     ]
   },
   {
-    "id": "aord-acal",
+    "id": "aord-acaw",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:referer",
+      "path": "headers:same-site:Fetch:direct:nocookie:referer",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9136,11 +9554,11 @@
     ]
   },
   {
-    "id": "aord-acam",
+    "id": "aord-acax",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:accept-encoding",
+      "path": "headers:same-site:Fetch:direct:nocookie:accept-encoding",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9164,11 +9582,11 @@
     ]
   },
   {
-    "id": "aord-acan",
+    "id": "aord-acay",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-origin:XHR:direct:nocookie:accept-language",
+      "path": "headers:same-site:Fetch:direct:nocookie:accept-language",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9195,7 +9613,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie::method",
+      "path": "headers:same-site:XHR:direct:nocookie::method",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9222,7 +9640,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie::authority",
+      "path": "headers:same-site:XHR:direct:nocookie::authority",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9250,7 +9668,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie::scheme",
+      "path": "headers:same-site:XHR:direct:nocookie::scheme",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9278,7 +9696,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie::path",
+      "path": "headers:same-site:XHR:direct:nocookie::path",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9306,7 +9724,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-platform",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9335,7 +9753,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9364,7 +9782,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:origin",
+      "path": "headers:same-site:XHR:direct:nocookie:origin",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9392,7 +9810,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-fetch-site",
+      "path": "headers:same-site:XHR:direct:nocookie:sec-fetch-site",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9420,7 +9838,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:referer",
+      "path": "headers:same-site:XHR:direct:nocookie:referer",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9448,7 +9866,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:accept-encoding",
+      "path": "headers:same-site:XHR:direct:nocookie:accept-encoding",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9476,7 +9894,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:accept-language",
+      "path": "headers:same-site:XHR:direct:nocookie:accept-language",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9499,11 +9917,11 @@
     ]
   },
   {
-    "id": "aord-acaz",
+    "id": "aord-acbk",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie::method",
+      "path": "headers:cross-site:Fetch:direct:nocookie::method",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9526,11 +9944,11 @@
     ]
   },
   {
-    "id": "aord-acba",
+    "id": "aord-acbl",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie::authority",
+      "path": "headers:cross-site:Fetch:direct:nocookie::authority",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9554,11 +9972,11 @@
     ]
   },
   {
-    "id": "aord-acbb",
+    "id": "aord-acbm",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie::scheme",
+      "path": "headers:cross-site:Fetch:direct:nocookie::scheme",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9582,11 +10000,11 @@
     ]
   },
   {
-    "id": "aord-acbc",
+    "id": "aord-acbn",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie::path",
+      "path": "headers:cross-site:Fetch:direct:nocookie::path",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9610,67 +10028,11 @@
     ]
   },
   {
-    "id": "aord-acbd",
+    "id": "aord-acbq",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path"
-        ],
-        [
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-acbe",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-acbf",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:origin",
+      "path": "headers:cross-site:Fetch:direct:nocookie:origin",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9694,11 +10056,11 @@
     ]
   },
   {
-    "id": "aord-acbg",
+    "id": "aord-acbr",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-fetch-site",
+      "path": "headers:cross-site:Fetch:direct:nocookie:sec-fetch-site",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9722,11 +10084,11 @@
     ]
   },
   {
-    "id": "aord-acbh",
+    "id": "aord-acbs",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:referer",
+      "path": "headers:cross-site:Fetch:direct:nocookie:referer",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9750,11 +10112,11 @@
     ]
   },
   {
-    "id": "aord-acbi",
+    "id": "aord-acbt",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:accept-encoding",
+      "path": "headers:cross-site:Fetch:direct:nocookie:accept-encoding",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9778,11 +10140,11 @@
     ]
   },
   {
-    "id": "aord-acbj",
+    "id": "aord-acbu",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:accept-language",
+      "path": "headers:cross-site:Fetch:direct:nocookie:accept-language",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9809,7 +10171,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie::method",
+      "path": "headers:cross-site:XHR:direct:nocookie::method",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9836,7 +10198,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie::authority",
+      "path": "headers:cross-site:XHR:direct:nocookie::authority",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9864,7 +10226,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie::scheme",
+      "path": "headers:cross-site:XHR:direct:nocookie::scheme",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9892,7 +10254,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie::path",
+      "path": "headers:cross-site:XHR:direct:nocookie::path",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9920,7 +10282,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "path": "headers:cross-site:XHR:direct:nocookie:sec-ch-ua-platform",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9949,7 +10311,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:cross-site:XHR:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -9978,7 +10340,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:origin",
+      "path": "headers:cross-site:XHR:direct:nocookie:origin",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -10006,7 +10368,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-fetch-site",
+      "path": "headers:cross-site:XHR:direct:nocookie:sec-fetch-site",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -10034,7 +10396,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:referer",
+      "path": "headers:cross-site:XHR:direct:nocookie:referer",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -10062,7 +10424,7 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:accept-encoding",
+      "path": "headers:cross-site:XHR:direct:nocookie:accept-encoding",
       "protocol": "http2",
       "httpMethod": "POST"
     },
@@ -10090,312 +10452,6 @@
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:accept-language",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-platform",
-          "sec-ch-ua-mobile",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding"
-        ],
-        []
-      ]
-    ]
-  },
-  {
-    "id": "aord-acbv",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie::method",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [],
-        [
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-acbw",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie::authority",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method"
-        ],
-        [
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-acbx",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie::scheme",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority"
-        ],
-        [
-          ":path",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-acby",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie::path",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme"
-        ],
-        [
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-acbz",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path"
-        ],
-        [
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-acca",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-accb",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:origin",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform"
-        ],
-        [
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-accc",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:sec-fetch-site",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin"
-        ],
-        [
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-accd",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:referer",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site"
-        ],
-        [
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-acce",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:XHR:direct:nocookie:accept-encoding",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile",
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer"
-        ],
-        [
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-accf",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
       "path": "headers:cross-site:XHR:direct:nocookie:accept-language",
       "protocol": "http2",
       "httpMethod": "POST"
@@ -10407,8 +10463,8 @@
           ":authority",
           ":scheme",
           ":path",
-          "sec-ch-ua-mobile",
           "sec-ch-ua-platform",
+          "sec-ch-ua-mobile",
           "origin",
           "sec-fetch-site",
           "referer",
@@ -12459,6 +12515,56 @@
     ]
   },
   {
+    "id": "aord-absw",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-absx",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          "host",
+          "connection",
+          "sec-ch-ua-mobile"
+        ],
+        [
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "aord-abtn",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
@@ -12506,112 +12612,6 @@
           "referer",
           "accept-encoding",
           "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abuf",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection"
-        ],
-        [
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abug",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-aaal",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "sec-ch-ua-mobile",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-aaam",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-platform"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language",
-          "sec-ch-ua-platform"
         ]
       ]
     ]
@@ -12727,13 +12727,13 @@
     ]
   },
   {
-    "id": "aord-abzl",
+    "id": "aord-acbo",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "http2",
-      "httpMethod": "GET"
+      "httpMethod": "POST"
     },
     "args": [
       [
@@ -12755,13 +12755,13 @@
     ]
   },
   {
-    "id": "aord-abzm",
+    "id": "aord-acbp",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
       "protocol": "http2",
-      "httpMethod": "GET"
+      "httpMethod": "POST"
     },
     "args": [
       [
@@ -12903,7 +12903,7 @@
     ]
   },
   {
-    "id": "dval-aacn",
+    "id": "dval-aabk",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -12913,12 +12913,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aaco",
+    "id": "dval-aabl",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -12928,12 +12928,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aacp",
+    "id": "dval-aabm",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -12943,12 +12943,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aacq",
+    "id": "dval-aabn",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -12958,12 +12958,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aacr",
+    "id": "dval-aabo",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -12973,12 +12973,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aacs",
+    "id": "dval-aabp",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -12988,12 +12988,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aact",
+    "id": "dval-aabq",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -13003,12 +13003,12 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
   {
-    "id": "dval-aacu",
+    "id": "dval-aabr",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -13018,237 +13018,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"124\", \"Google Chrome\";v=\"124\", \"Not-A.Brand\";v=\"99\""
-      ]
-    ]
-  },
-  {
-    "id": "aord-aacm",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-platform"
-        ],
-        [
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-aacn",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language",
-          "sec-ch-ua-mobile"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abte",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection"
-        ],
-        [
-          "sec-ch-ua-platform",
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abtf",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:same-site:XHR:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "dval-aabv",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aabx",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aabz",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aacb",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aace",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aacg",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaci",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aack",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"123\", \"Not:A-Brand\";v=\"8\", \"Chromium\";v=\"123\""
+        "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\""
       ]
     ]
   },
@@ -13307,20 +13077,19 @@
     ]
   },
   {
-    "id": "aord-aaco",
+    "id": "aord-abvg",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
       "protocol": "https",
-      "httpMethod": "GET"
+      "httpMethod": "POST"
     },
     "args": [
       [
         [
           "host",
-          "connection",
-          "sec-ch-ua-platform"
+          "connection"
         ],
         [
           "sec-ch-ua-platform",
@@ -13334,34 +13103,7 @@
     ]
   },
   {
-    "id": "aord-aacp",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "headers:cross-site:Fetch:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-mobile"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language",
-          "sec-ch-ua-mobile"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-aacs",
+    "id": "aord-abvh",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -13373,10 +13115,10 @@
       [
         [
           "host",
-          "connection"
+          "connection",
+          "sec-ch-ua-mobile"
         ],
         [
-          "sec-ch-ua-mobile",
           "origin",
           "sec-fetch-site",
           "referer",
@@ -13387,28 +13129,122 @@
     ]
   },
   {
-    "id": "aord-aact",
-    "checkName": "ArrayOrderIndexCheck",
+    "id": "dval-aabc",
+    "checkName": "DefaultValueCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "path": "XHR:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabd",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabe",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua",
       "protocol": "https",
       "httpMethod": "POST"
     },
     "args": [
       [
-        [
-          "host",
-          "connection",
-          "sec-ch-ua-platform"
-        ],
-        [
-          "origin",
-          "sec-fetch-site",
-          "referer",
-          "accept-encoding",
-          "accept-language"
-        ]
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabf",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabg",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabh",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabi",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabj",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Not)A;Brand\";v=\"99\", \"Google Chrome\";v=\"127\", \"Chromium\";v=\"127\""
       ]
     ]
   },
@@ -13469,26 +13305,23 @@
     ]
   },
   {
-    "id": "aord-aacq",
+    "id": "aord-aacm",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
-      "protocol": "http2",
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "https",
       "httpMethod": "GET"
     },
     "args": [
       [
         [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
+          "host",
+          "connection",
           "sec-ch-ua-platform"
         ],
         [
           "sec-ch-ua-platform",
-          "origin",
           "sec-fetch-site",
           "referer",
           "accept-encoding",
@@ -13498,25 +13331,22 @@
     ]
   },
   {
-    "id": "aord-aacr",
+    "id": "aord-aacn",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-platform",
-      "protocol": "http2",
+      "path": "headers:same-origin:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "https",
       "httpMethod": "GET"
     },
     "args": [
       [
         [
-          ":method",
-          ":authority",
-          ":scheme",
-          ":path",
+          "host",
+          "connection",
           "sec-ch-ua-mobile"
         ],
         [
-          "origin",
           "sec-fetch-site",
           "referer",
           "accept-encoding",
@@ -13643,6 +13473,64 @@
     "args": [
       [
         "\"Windows\""
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacq",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-mobile",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-platform"
+        ],
+        [
+          "sec-ch-ua-platform",
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacr",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "headers:same-site:Fetch:direct:nocookie:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        [
+          ":method",
+          ":authority",
+          ":scheme",
+          ":path",
+          "sec-ch-ua-mobile"
+        ],
+        [
+          "origin",
+          "sec-fetch-site",
+          "referer",
+          "accept-encoding",
+          "accept-language",
+          "sec-ch-ua-mobile"
+        ]
       ]
     ]
   }

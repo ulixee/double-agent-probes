@@ -4,10 +4,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "application/ogg;codecs=opus"
+      "video/mp4"
     ]
   },
   {
@@ -15,10 +15,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "application/ogg;codecs=vorbis"
+      "video/mp4;codecs=avc1.42E01E"
     ]
   },
   {
@@ -26,10 +26,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "application/ogg;codecs=vp8"
+      "video/mp4;codecs=avc1.42E01F"
     ]
   },
   {
@@ -37,10 +37,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "application/ogg;codecs=vp8,opus"
+      "video/mp4;codecs=avc1.4D401F"
     ]
   },
   {
@@ -48,10 +48,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "application/ogg;codecs=vp8,vorbis"
+      "video/mp4;codecs=avc1.4D4028"
     ]
   },
   {
@@ -59,10 +59,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "application/ogg;codecs=vp8.0"
+      "video/mp4;codecs=avc1.640028"
     ]
   },
   {
@@ -70,10 +70,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "video/3gpp;codecs=avc1.42E01E"
+      "video/mp4;codecs=avc1.640029"
     ]
   },
   {
@@ -81,10 +81,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "video/3gpp;codecs=avc1.42E01F"
+      "video/mp4;codecs=mp4a.40.2"
     ]
   },
   {
@@ -92,10 +92,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "video/3gpp;codecs=avc1.4D401F"
+      "video/mp4;codecs=opus"
     ]
   },
   {
@@ -103,10 +103,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "video/3gpp;codecs=avc1.4D4028"
+      "video/mp4;codecs=vp9"
     ]
   },
   {
@@ -114,10 +114,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "videoSupport.recordingFormats"
     },
     "args": [
-      "video/3gpp;codecs=avc1.640028"
+      "video/mp4;codecs=vp9,opus"
     ]
   },
   {
@@ -125,10 +125,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "audioSupport.recordingFormats"
     },
     "args": [
-      "video/3gpp;codecs=avc1.640029"
+      "audio/mp4"
     ]
   },
   {
@@ -136,10 +136,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "audioSupport.recordingFormats"
     },
     "args": [
-      "video/3gpp;codecs=mp4a.40.05"
+      "audio/mp4;codecs=mp4a.40.2"
     ]
   },
   {
@@ -147,10 +147,10 @@
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "videoSupport.probablyPlays"
+      "path": "audioSupport.recordingFormats"
     },
     "args": [
-      "video/3gpp;codecs=mp4a.40.2"
+      "audio/mp4;codecs=opus"
     ]
   },
   {
@@ -558,6 +558,17 @@
     },
     "args": [
       "video/webm"
+    ]
+  },
+  {
+    "id": "stra-aaab",
+    "checkName": "StringArrayCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "videoSupport.recordingFormats"
+    },
+    "args": [
+      "video/mp4;codecs=avc1"
     ]
   },
   {
@@ -1119,17 +1130,6 @@
     },
     "args": [
       "90000-video/VP9"
-    ]
-  },
-  {
-    "id": "stra-aaab",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "videoSupport.probablyPlays"
-    },
-    "args": [
-      "video/mp4;codecs=hev1.1.6.L153.B0"
     ]
   },
   {
