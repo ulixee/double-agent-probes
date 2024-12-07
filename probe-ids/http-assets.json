@@ -3067,5 +3067,15 @@
   "http2:GET:Stylesheet:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aaaq",
   "http2:GET:Image:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aaar",
   "http2:GET:Media:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aaas",
-  "http2:GET:Font:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aaat"
+  "http2:GET:Font:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aaat",
+  "https:GET:Script:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaaa",
+  "https:GET:Stylesheet:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaab",
+  "https:GET:Image:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaac",
+  "https:GET:Font:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaad",
+  "https:GET:Media:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaae",
+  "http2:GET:Script:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaaf",
+  "http2:GET:Stylesheet:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaag",
+  "http2:GET:Image:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaah",
+  "http2:GET:Font:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaai",
+  "http2:GET:Media:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaaj"
 }

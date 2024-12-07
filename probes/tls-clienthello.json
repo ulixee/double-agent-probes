@@ -1,10 +1,10 @@
 [
   {
-    "id": "aord-abah",
+    "id": "aord-abax",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "clientHello.extensions.order:server_name"
+      "path": "clientHello.extensions.order:psk_key_exchange_modes"
     },
     "args": [
       [
@@ -12,325 +12,28 @@
           "GREASE"
         ],
         [
-          "renegotiate",
-          "signed_certificate_timestamps",
+          "session_ticket",
+          "supported_versions",
           "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
           "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
           "status_request",
           "key_share",
-          "supported_versions",
           "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
           "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abai",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:renegotiate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name"
-        ],
-        [
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abaj",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signed_certificate_timestamps"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate"
-        ],
-        [
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abak",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps"
-        ],
-        [
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abal",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_groups"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation"
-        ],
-        [
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abam",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:status_request"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups"
-        ],
-        [
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-aban",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:key_share"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request"
-        ],
-        [
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abao",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_versions"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share"
-        ],
-        [
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abap",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions"
-        ],
-        [
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abaq",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN"
-        ],
-        [
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abar",
+    "id": "aord-abay",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -340,162 +43,96 @@
       [
         [
           "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN"
-        ],
-        [
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abas",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:psk_key_exchange_modes"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket"
-        ],
-        [
-          "compress_certificate",
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abat",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:compress_certificate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
           "psk_key_exchange_modes"
         ],
         [
-          "extended_master_secret",
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abau",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:extended_master_secret"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
           "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate"
-        ],
-        [
-          "signature_algorithms",
-          "ec_point_formats",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abav",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signature_algorithms"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "server_name",
-          "renegotiate",
-          "signed_certificate_timestamps",
           "application_layer_protocol_negotiation",
-          "supported_groups",
-          "status_request",
-          "key_share",
-          "supported_versions",
-          "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
+          "ec_point_formats",
+          "renegotiate",
           "compress_certificate",
-          "extended_master_secret"
-        ],
-        [
-          "ec_point_formats",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abaw",
+    "id": "aord-abaz",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_versions"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket"
+        ],
+        [
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abba",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions"
+        ],
+        [
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbb",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -505,21 +142,384 @@
       [
         [
           "GREASE",
-          "server_name",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation"
+        ],
+        [
           "renegotiate",
-          "signed_certificate_timestamps",
-          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
           "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
           "status_request",
           "key_share",
-          "supported_versions",
           "UNKNOWN",
-          "UNKNOWN",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "compress_certificate",
           "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbc",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:renegotiate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats"
+        ],
+        [
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbd",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:compress_certificate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate"
+        ],
+        [
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbe",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate"
+        ],
+        [
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbf",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:server_name"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN"
+        ],
+        [
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbg",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_groups"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name"
+        ],
+        [
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbh",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signed_certificate_timestamps"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups"
+        ],
+        [
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbi",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signature_algorithms"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps"
+        ],
+        [
+          "status_request",
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbj",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:status_request"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
           "signature_algorithms"
+        ],
+        [
+          "key_share",
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbk",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:key_share"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request"
+        ],
+        [
+          "UNKNOWN",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbl",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share"
+        ],
+        [
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-abbm",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:extended_master_secret"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "supported_versions",
+          "application_layer_protocol_negotiation",
+          "ec_point_formats",
+          "renegotiate",
+          "compress_certificate",
+          "UNKNOWN",
+          "server_name",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "signature_algorithms",
+          "status_request",
+          "key_share",
+          "UNKNOWN"
         ],
         [
           "GREASE"
@@ -1184,39 +1184,39 @@
     ]
   },
   {
-    "id": "numr-aacb",
+    "id": "numr-aacm",
     "checkName": "NumberCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "clientHello.extensions.decimal"
     },
     "args": [
-      0,
-      "server_name"
+      45,
+      "psk_key_exchange_modes"
     ]
   },
   {
-    "id": "numr-aacd",
+    "id": "numr-aacg",
     "checkName": "NumberCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "clientHello.extensions.decimal"
     },
     "args": [
-      65281,
-      "renegotiate"
+      35,
+      "session_ticket"
     ]
   },
   {
-    "id": "numr-aack",
+    "id": "numr-aacn",
     "checkName": "NumberCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "clientHello.extensions.decimal"
     },
     "args": [
-      18,
-      "signed_certificate_timestamps"
+      43,
+      "supported_versions"
     ]
   },
   {
@@ -1232,6 +1232,66 @@
     ]
   },
   {
+    "id": "numr-aacf",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      11,
+      "ec_point_formats"
+    ]
+  },
+  {
+    "id": "numr-aacd",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      65281,
+      "renegotiate"
+    ]
+  },
+  {
+    "id": "numr-aaco",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      27,
+      "compress_certificate"
+    ]
+  },
+  {
+    "id": "numr-aact",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      17513,
+      "UNKNOWN"
+    ]
+  },
+  {
+    "id": "numr-aacb",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      0,
+      "server_name"
+    ]
+  },
+  {
     "id": "numr-aace",
     "checkName": "NumberCheck",
     "checkType": "Individual",
@@ -1241,6 +1301,30 @@
     "args": [
       10,
       "supported_groups"
+    ]
+  },
+  {
+    "id": "numr-aack",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      18,
+      "signed_certificate_timestamps"
+    ]
+  },
+  {
+    "id": "numr-aacj",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.decimal"
+    },
+    "args": [
+      13,
+      "signature_algorithms"
     ]
   },
   {
@@ -1268,30 +1352,6 @@
     ]
   },
   {
-    "id": "numr-aacn",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.decimal"
-    },
-    "args": [
-      43,
-      "supported_versions"
-    ]
-  },
-  {
-    "id": "numr-aact",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.decimal"
-    },
-    "args": [
-      17513,
-      "UNKNOWN"
-    ]
-  },
-  {
     "id": "numr-aaac",
     "checkName": "NumberCheck",
     "checkType": "Individual",
@@ -1304,42 +1364,6 @@
     ]
   },
   {
-    "id": "numr-aacg",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.decimal"
-    },
-    "args": [
-      35,
-      "session_ticket"
-    ]
-  },
-  {
-    "id": "numr-aacm",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.decimal"
-    },
-    "args": [
-      45,
-      "psk_key_exchange_modes"
-    ]
-  },
-  {
-    "id": "numr-aaco",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.decimal"
-    },
-    "args": [
-      27,
-      "compress_certificate"
-    ]
-  },
-  {
     "id": "numr-aacc",
     "checkName": "NumberCheck",
     "checkType": "Individual",
@@ -1349,42 +1373,6 @@
     "args": [
       23,
       "extended_master_secret"
-    ]
-  },
-  {
-    "id": "numr-aacj",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.decimal"
-    },
-    "args": [
-      13,
-      "signature_algorithms"
-    ]
-  },
-  {
-    "id": "numr-aacf",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.decimal"
-    },
-    "args": [
-      11,
-      "ec_point_formats"
-    ]
-  },
-  {
-    "id": "numr-aaad",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.supported_groups"
-    },
-    "args": [
-      25497,
-      "UNKNOWN"
     ]
   },
   {
@@ -1920,11 +1908,23 @@
     ]
   },
   {
-    "id": "aord-abax",
+    "id": "numr-aaad",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_groups"
+    },
+    "args": [
+      25497,
+      "UNKNOWN"
+    ]
+  },
+  {
+    "id": "aord-aaaa",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "clientHello.extensions.order:psk_key_exchange_modes"
+      "path": "clientHello.extensions.order:extended_master_secret"
     },
     "args": [
       [
@@ -1933,27 +1933,27 @@
         ],
         [
           "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
           "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
           "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
+          "server_name",
           "key_share",
           "UNKNOWN",
-          "extended_master_secret",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abay",
+    "id": "aord-aaab",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -1963,1016 +1963,500 @@
       [
         [
           "GREASE",
-          "psk_key_exchange_modes"
-        ],
-        [
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abaz",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_versions"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket"
-        ],
-        [
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abba",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions"
-        ],
-        [
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbb",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:ec_point_formats"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation"
-        ],
-        [
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbc",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:renegotiate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats"
-        ],
-        [
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbd",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:compress_certificate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate"
-        ],
-        [
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbe",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate"
-        ],
-        [
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbf",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:server_name"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN"
-        ],
-        [
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbg",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_groups"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name"
-        ],
-        [
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbh",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signed_certificate_timestamps"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups"
-        ],
-        [
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbi",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signature_algorithms"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps"
-        ],
-        [
-          "status_request",
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbj",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:status_request"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms"
-        ],
-        [
-          "key_share",
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbk",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:key_share"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request"
-        ],
-        [
-          "UNKNOWN",
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbl",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share"
-        ],
-        [
-          "extended_master_secret",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbm",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:extended_master_secret"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "psk_key_exchange_modes",
-          "session_ticket",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "ec_point_formats",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "server_name",
-          "supported_groups",
-          "signed_certificate_timestamps",
-          "signature_algorithms",
-          "status_request",
-          "key_share",
-          "UNKNOWN"
-        ],
-        [
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbn",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:ec_point_formats"
-    },
-    "args": [
-      [
-        [
-          "GREASE"
-        ],
-        [
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbo",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_groups"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats"
-        ],
-        [
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbp",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups"
-        ],
-        [
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbq",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:status_request"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation"
-        ],
-        [
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbr",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_versions"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request"
-        ],
-        [
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbs",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:key_share"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions"
-        ],
-        [
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbt",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share"
-        ],
-        [
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbu",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:server_name"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN"
-        ],
-        [
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbv",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:renegotiate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name"
-        ],
-        [
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbw",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:compress_certificate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate"
-        ],
-        [
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbx",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:psk_key_exchange_modes"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate"
-        ],
-        [
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abby",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signed_certificate_timestamps"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes"
-        ],
-        [
-          "session_ticket",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abbz",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:session_ticket"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps"
-        ],
-        [
-          "UNKNOWN",
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abca",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket"
-        ],
-        [
-          "extended_master_secret",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abcb",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:extended_master_secret"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN"
-        ],
-        [
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abcc",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signature_algorithms"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "supported_groups",
-          "application_layer_protocol_negotiation",
-          "status_request",
-          "supported_versions",
-          "key_share",
-          "UNKNOWN",
-          "server_name",
-          "renegotiate",
-          "compress_certificate",
-          "psk_key_exchange_modes",
-          "signed_certificate_timestamps",
-          "session_ticket",
-          "UNKNOWN",
           "extended_master_secret"
         ],
         [
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
           "GREASE"
         ]
       ]
+    ]
+  },
+  {
+    "id": "aord-aaac",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:compress_certificate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket"
+        ],
+        [
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaad",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signed_certificate_timestamps"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate"
+        ],
+        [
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaae",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:server_name"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps"
+        ],
+        [
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaaf",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:key_share"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name"
+        ],
+        [
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaag",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share"
+        ],
+        [
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaah",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:renegotiate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN"
+        ],
+        [
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaai",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_groups"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate"
+        ],
+        [
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaaj",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signature_algorithms"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups"
+        ],
+        [
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaak",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:ec_point_formats"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms"
+        ],
+        [
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaal",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats"
+        ],
+        [
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaam",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation"
+        ],
+        [
+          "supported_versions",
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaan",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_versions"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN"
+        ],
+        [
+          "psk_key_exchange_modes",
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaao",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:psk_key_exchange_modes"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions"
+        ],
+        [
+          "status_request",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaap",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:status_request"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "extended_master_secret",
+          "session_ticket",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "server_name",
+          "key_share",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "supported_versions",
+          "psk_key_exchange_modes"
+        ],
+        [
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "numr-aaaa",
+    "checkName": "NumberCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.supported_groups"
+    },
+    "args": [
+      4588,
+      "UNKNOWN"
     ]
   },
   {
@@ -3504,205 +2988,7 @@
     ]
   },
   {
-    "id": "aord-abct",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_versions"
-    },
-    "args": [
-      [
-        [
-          "GREASE"
-        ],
-        [
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abcu",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:session_ticket"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions"
-        ],
-        [
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abcv",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:compress_certificate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket"
-        ],
-        [
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abcw",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate"
-        ],
-        [
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abcx",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_groups"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation"
-        ],
-        [
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abcy",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:key_share"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups"
-        ],
-        [
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abcz",
+    "id": "aord-aaaq",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -3711,262 +2997,31 @@
     "args": [
       [
         [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share"
+          "GREASE"
         ],
         [
+          "renegotiate",
           "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
+          "psk_key_exchange_modes",
+          "supported_groups",
           "signed_certificate_timestamps",
           "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abda",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
           "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name"
-        ],
-        [
           "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
           "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
           "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abdb",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
           "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN"
-        ],
-        [
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abdc",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:extended_master_secret"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN"
-        ],
-        [
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abdd",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signed_certificate_timestamps"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret"
-        ],
-        [
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abde",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:status_request"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps"
-        ],
-        [
-          "psk_key_exchange_modes",
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abdf",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:psk_key_exchange_modes"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request"
-        ],
-        [
-          "ec_point_formats",
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abdg",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:ec_point_formats"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes"
-        ],
-        [
-          "renegotiate",
-          "signature_algorithms",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abdh",
+    "id": "aord-aaar",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -3976,30 +3031,426 @@
       [
         [
           "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
-          "server_name",
-          "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
-          "signed_certificate_timestamps",
-          "status_request",
-          "psk_key_exchange_modes",
-          "ec_point_formats"
+          "server_name"
         ],
         [
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
           "signature_algorithms",
+          "compress_certificate",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abdi",
+    "id": "aord-aaas",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate"
+        ],
+        [
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaat",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:psk_key_exchange_modes"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN"
+        ],
+        [
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaau",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_groups"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes"
+        ],
+        [
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaav",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signed_certificate_timestamps"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups"
+        ],
+        [
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaaw",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:status_request"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps"
+        ],
+        [
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaax",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:session_ticket"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request"
+        ],
+        [
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaay",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket"
+        ],
+        [
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaaz",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:ec_point_formats"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN"
+        ],
+        [
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaba",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:key_share"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats"
+        ],
+        [
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabb",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share"
+        ],
+        [
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabc",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_versions"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation"
+        ],
+        [
+          "extended_master_secret",
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabd",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:extended_master_secret"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions"
+        ],
+        [
+          "signature_algorithms",
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabe",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -4009,21 +3460,54 @@
       [
         [
           "GREASE",
-          "supported_versions",
-          "session_ticket",
-          "compress_certificate",
-          "application_layer_protocol_negotiation",
-          "supported_groups",
-          "key_share",
           "server_name",
+          "renegotiate",
           "UNKNOWN",
-          "UNKNOWN",
-          "extended_master_secret",
+          "psk_key_exchange_modes",
+          "supported_groups",
           "signed_certificate_timestamps",
           "status_request",
-          "psk_key_exchange_modes",
+          "session_ticket",
+          "UNKNOWN",
           "ec_point_formats",
-          "renegotiate"
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret"
+        ],
+        [
+          "compress_certificate",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabf",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:compress_certificate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "server_name",
+          "renegotiate",
+          "UNKNOWN",
+          "psk_key_exchange_modes",
+          "supported_groups",
+          "signed_certificate_timestamps",
+          "status_request",
+          "session_ticket",
+          "UNKNOWN",
+          "ec_point_formats",
+          "key_share",
+          "application_layer_protocol_negotiation",
+          "supported_versions",
+          "extended_master_secret",
+          "signature_algorithms"
         ],
         [
           "GREASE"
@@ -4560,304 +4044,7 @@
     ]
   },
   {
-    "id": "aord-abdz",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_versions"
-    },
-    "args": [
-      [
-        [
-          "GREASE"
-        ],
-        [
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abea",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:renegotiate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions"
-        ],
-        [
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abeb",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:compress_certificate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "renegotiate"
-        ],
-        [
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abec",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate"
-        ],
-        [
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abed",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN"
-        ],
-        [
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abee",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:ec_point_formats"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN"
-        ],
-        [
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abef",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:key_share"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats"
-        ],
-        [
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abeg",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signature_algorithms"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share"
-        ],
-        [
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abeh",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_groups"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms"
-        ],
-        [
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abei",
+    "id": "aord-aabg",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -4866,130 +4053,31 @@
     "args": [
       [
         [
-          "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups"
+          "GREASE"
         ],
         [
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
           "psk_key_exchange_modes",
           "status_request",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abej",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:psk_key_exchange_modes"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
           "signature_algorithms",
-          "supported_groups",
-          "session_ticket"
-        ],
-        [
-          "status_request",
           "signed_certificate_timestamps",
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abek",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:status_request"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "supported_versions",
           "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
           "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes"
-        ],
-        [
-          "signed_certificate_timestamps",
-          "extended_master_secret",
           "server_name",
-          "application_layer_protocol_negotiation",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abel",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signed_certificate_timestamps"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
           "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
           "key_share",
-          "signature_algorithms",
           "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request"
-        ],
-        [
-          "extended_master_secret",
-          "server_name",
-          "application_layer_protocol_negotiation",
+          "UNKNOWN",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abem",
+    "id": "aord-aabh",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -4999,63 +4087,63 @@
       [
         [
           "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
-          "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps"
+          "session_ticket"
         ],
         [
-          "server_name",
+          "UNKNOWN",
           "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-aben",
+    "id": "aord-aabi",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "clientHello.extensions.order:server_name"
+      "path": "clientHello.extensions.order:UNKNOWN"
     },
     "args": [
       [
         [
           "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
           "session_ticket",
-          "psk_key_exchange_modes",
-          "status_request",
-          "signed_certificate_timestamps",
           "extended_master_secret"
         ],
         [
           "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abeo",
+    "id": "aord-aabj",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -5065,21 +4153,417 @@
       [
         [
           "GREASE",
-          "supported_versions",
-          "renegotiate",
-          "compress_certificate",
-          "UNKNOWN",
-          "UNKNOWN",
-          "ec_point_formats",
-          "key_share",
-          "signature_algorithms",
-          "supported_groups",
           "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN"
+        ],
+        [
+          "compress_certificate",
           "psk_key_exchange_modes",
           "status_request",
+          "signature_algorithms",
           "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabk",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:compress_certificate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
           "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation"
+        ],
+        [
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabl",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:psk_key_exchange_modes"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate"
+        ],
+        [
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabm",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:status_request"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes"
+        ],
+        [
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabn",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signature_algorithms"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request"
+        ],
+        [
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabo",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signed_certificate_timestamps"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms"
+        ],
+        [
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabp",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:renegotiate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps"
+        ],
+        [
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabq",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:ec_point_formats"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate"
+        ],
+        [
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabr",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:server_name"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats"
+        ],
+        [
+          "supported_versions",
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabs",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_versions"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
           "server_name"
+        ],
+        [
+          "key_share",
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabt",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:key_share"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions"
+        ],
+        [
+          "supported_groups",
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabu",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_groups"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share"
+        ],
+        [
+          "UNKNOWN",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabv",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "session_ticket",
+          "extended_master_secret",
+          "UNKNOWN",
+          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "psk_key_exchange_modes",
+          "status_request",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "ec_point_formats",
+          "server_name",
+          "supported_versions",
+          "key_share",
+          "supported_groups"
         ],
         [
           "GREASE"
@@ -5616,172 +5100,7 @@
     ]
   },
   {
-    "id": "aord-abff",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:session_ticket"
-    },
-    "args": [
-      [
-        [
-          "GREASE"
-        ],
-        [
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfg",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:ec_point_formats"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket"
-        ],
-        [
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfh",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_versions"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats"
-        ],
-        [
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfi",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions"
-        ],
-        [
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfj",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:extended_master_secret"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation"
-        ],
-        [
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfk",
+    "id": "aord-aabw",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -5790,295 +5109,31 @@
     "args": [
       [
         [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret"
+          "GREASE"
         ],
         [
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
+          "psk_key_exchange_modes",
           "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
           "signed_certificate_timestamps",
           "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfl",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_groups"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms"
-        ],
-        [
+          "UNKNOWN",
           "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfm",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:renegotiate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups"
-        ],
-        [
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfn",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:server_name"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
           "supported_groups",
-          "renegotiate"
-        ],
-        [
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfo",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
           "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
           "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name"
-        ],
-        [
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abfp",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:key_share"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN"
-        ],
-        [
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfq",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:status_request"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share"
-        ],
-        [
-          "signed_certificate_timestamps",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfr",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signed_certificate_timestamps"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request"
-        ],
-        [
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abfs",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps"
-        ],
-        [
-          "psk_key_exchange_modes",
-          "compress_certificate",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abft",
+    "id": "aord-aabx",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -6088,30 +5143,63 @@
       [
         [
           "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
-          "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
-          "server_name",
-          "UNKNOWN",
-          "key_share",
-          "status_request",
-          "signed_certificate_timestamps",
-          "UNKNOWN"
+          "signature_algorithms"
         ],
         [
+          "status_request",
           "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abfu",
+    "id": "aord-aaby",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:status_request"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes"
+        ],
+        [
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aabz",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -6121,21 +5209,417 @@
       [
         [
           "GREASE",
-          "session_ticket",
-          "ec_point_formats",
-          "supported_versions",
-          "application_layer_protocol_negotiation",
-          "extended_master_secret",
           "signature_algorithms",
-          "supported_groups",
-          "renegotiate",
+          "psk_key_exchange_modes",
+          "status_request"
+        ],
+        [
+          "supported_versions",
+          "session_ticket",
           "server_name",
-          "UNKNOWN",
+          "application_layer_protocol_negotiation",
           "key_share",
-          "status_request",
           "signed_certificate_timestamps",
           "UNKNOWN",
-          "psk_key_exchange_modes"
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaca",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_versions"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate"
+        ],
+        [
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacb",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:session_ticket"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions"
+        ],
+        [
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacc",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:server_name"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket"
+        ],
+        [
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacd",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name"
+        ],
+        [
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aace",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:key_share"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation"
+        ],
+        [
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacf",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signed_certificate_timestamps"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share"
+        ],
+        [
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacg",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps"
+        ],
+        [
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aach",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN"
+        ],
+        [
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaci",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:renegotiate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN"
+        ],
+        [
+          "supported_groups",
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacj",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_groups"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate"
+        ],
+        [
+          "ec_point_formats",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aack",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:ec_point_formats"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups"
+        ],
+        [
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacl",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:extended_master_secret"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "status_request",
+          "compress_certificate",
+          "supported_versions",
+          "session_ticket",
+          "server_name",
+          "application_layer_protocol_negotiation",
+          "key_share",
+          "signed_certificate_timestamps",
+          "UNKNOWN",
+          "UNKNOWN",
+          "renegotiate",
+          "supported_groups",
+          "ec_point_formats"
         ],
         [
           "GREASE"
@@ -6672,7 +6156,7 @@
     ]
   },
   {
-    "id": "aord-abgl",
+    "id": "aord-aacm",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -6684,32 +6168,32 @@
           "GREASE"
         ],
         [
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
           "status_request",
           "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abgm",
+    "id": "aord-aacn",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "clientHello.extensions.order:extended_master_secret"
+      "path": "clientHello.extensions.order:status_request"
     },
     "args": [
       [
@@ -6718,159 +6202,27 @@
           "ec_point_formats"
         ],
         [
-          "session_ticket",
+          "UNKNOWN",
+          "compress_certificate",
           "server_name",
-          "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
           "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
           "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgn",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:session_ticket"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "extended_master_secret"
-        ],
-        [
-          "server_name",
-          "supported_groups",
           "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgo",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:server_name"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket"
-        ],
-        [
-          "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgp",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_groups"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "extended_master_secret",
           "session_ticket",
-          "server_name"
-        ],
-        [
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
           "application_layer_protocol_negotiation",
-          "supported_versions",
           "signature_algorithms",
-          "key_share",
           "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgq",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:renegotiate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
           "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups"
-        ],
-        [
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abgr",
+    "id": "aord-aaco",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -6881,227 +6233,29 @@
         [
           "GREASE",
           "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate"
+          "status_request"
         ],
         [
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
+          "compress_certificate",
+          "server_name",
           "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
           "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgs",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:psk_key_exchange_modes"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
           "renegotiate",
-          "UNKNOWN"
-        ],
-        [
+          "session_ticket",
           "application_layer_protocol_negotiation",
-          "supported_versions",
           "signature_algorithms",
+          "signed_certificate_timestamps",
           "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgt",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
           "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes"
-        ],
-        [
-          "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgu",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:supported_versions"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
           "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation"
-        ],
-        [
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgv",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signature_algorithms"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
           "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions"
-        ],
-        [
-          "key_share",
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abgw",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:key_share"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms"
-        ],
-        [
-          "signed_certificate_timestamps",
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgx",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signed_certificate_timestamps"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms",
-          "key_share"
-        ],
-        [
-          "compress_certificate",
-          "status_request",
-          "UNKNOWN",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abgy",
+    "id": "aord-aacp",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -7112,62 +6266,95 @@
         [
           "GREASE",
           "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps"
+          "status_request",
+          "UNKNOWN"
         ],
         [
-          "status_request",
+          "server_name",
+          "supported_versions",
           "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abgz",
+    "id": "aord-aacq",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
-      "path": "clientHello.extensions.order:status_request"
+      "path": "clientHello.extensions.order:server_name"
     },
     "args": [
       [
         [
           "GREASE",
           "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate",
+          "status_request",
           "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
           "compress_certificate"
         ],
         [
+          "supported_versions",
           "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abha",
+    "id": "aord-aacr",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_versions"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name"
+        ],
+        [
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacs",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -7178,20 +6365,317 @@
         [
           "GREASE",
           "ec_point_formats",
-          "extended_master_secret",
-          "session_ticket",
-          "server_name",
-          "supported_groups",
-          "renegotiate",
+          "status_request",
           "UNKNOWN",
-          "psk_key_exchange_modes",
-          "application_layer_protocol_negotiation",
-          "supported_versions",
-          "signature_algorithms",
-          "key_share",
-          "signed_certificate_timestamps",
           "compress_certificate",
-          "status_request"
+          "server_name",
+          "supported_versions"
+        ],
+        [
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aact",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:renegotiate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN"
+        ],
+        [
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacu",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:session_ticket"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate"
+        ],
+        [
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacv",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket"
+        ],
+        [
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacw",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signature_algorithms"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation"
+        ],
+        [
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacx",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signed_certificate_timestamps"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms"
+        ],
+        [
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacy",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:key_share"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps"
+        ],
+        [
+          "supported_groups",
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aacz",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_groups"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share"
+        ],
+        [
+          "psk_key_exchange_modes",
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aada",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:psk_key_exchange_modes"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups"
+        ],
+        [
+          "extended_master_secret",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadb",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:extended_master_secret"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "ec_point_formats",
+          "status_request",
+          "UNKNOWN",
+          "compress_certificate",
+          "server_name",
+          "supported_versions",
+          "UNKNOWN",
+          "renegotiate",
+          "session_ticket",
+          "application_layer_protocol_negotiation",
+          "signature_algorithms",
+          "signed_certificate_timestamps",
+          "key_share",
+          "supported_groups",
+          "psk_key_exchange_modes"
         ],
         [
           "GREASE"
@@ -7728,205 +7212,7 @@
     ]
   },
   {
-    "id": "aord-abhr",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:ec_point_formats"
-    },
-    "args": [
-      [
-        [
-          "GREASE"
-        ],
-        [
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abhs",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:session_ticket"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats"
-        ],
-        [
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abht",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "session_ticket"
-        ],
-        [
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abhu",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:psk_key_exchange_modes"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN"
-        ],
-        [
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abhv",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:UNKNOWN"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes"
-        ],
-        [
-          "application_layer_protocol_negotiation",
-          "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abhw",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN"
-        ],
-        [
-          "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abhx",
+    "id": "aord-aadc",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -7935,163 +7221,31 @@
     "args": [
       [
         [
-          "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation"
+          "GREASE"
         ],
         [
-          "compress_certificate",
-          "renegotiate",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
           "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abhy",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:compress_certificate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share"
-        ],
-        [
           "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
           "server_name",
           "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abhz",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:renegotiate"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share",
-          "compress_certificate"
-        ],
-        [
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abia",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:signed_certificate_timestamps"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share",
           "compress_certificate",
-          "renegotiate"
-        ],
-        [
-          "extended_master_secret",
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
-          "supported_groups",
-          "GREASE"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "aord-abib",
-    "checkName": "ArrayOrderIndexCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "clientHello.extensions.order:extended_master_secret"
-    },
-    "args": [
-      [
-        [
-          "GREASE",
           "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps"
-        ],
-        [
-          "status_request",
-          "signature_algorithms",
-          "server_name",
-          "supported_versions",
+          "extended_master_secret",
           "supported_groups",
+          "session_ticket",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abic",
+    "id": "aord-aadd",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -8101,30 +7255,63 @@
       [
         [
           "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
-          "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret"
+          "key_share"
         ],
         [
+          "UNKNOWN",
           "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
           "server_name",
           "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
           "supported_groups",
+          "session_ticket",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abid",
+    "id": "aord-aade",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request"
+        ],
+        [
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "server_name",
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadf",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -8134,30 +7321,195 @@
       [
         [
           "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
           "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
-          "status_request"
+          "status_request",
+          "UNKNOWN"
         ],
         [
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
           "server_name",
           "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
           "supported_groups",
+          "session_ticket",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abie",
+    "id": "aord-aadg",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:psk_key_exchange_modes"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms"
+        ],
+        [
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "server_name",
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadh",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes"
+        ],
+        [
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "server_name",
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadi",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation"
+        ],
+        [
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "server_name",
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadj",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signed_certificate_timestamps"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN"
+        ],
+        [
+          "renegotiate",
+          "server_name",
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadk",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:renegotiate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps"
+        ],
+        [
+          "server_name",
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadl",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -8167,30 +7519,30 @@
       [
         [
           "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
           "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
           "status_request",
-          "signature_algorithms"
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate"
         ],
         [
           "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
           "supported_groups",
+          "session_ticket",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abif",
+    "id": "aord-aadm",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -8200,30 +7552,129 @@
       [
         [
           "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
           "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
           "status_request",
+          "UNKNOWN",
           "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
           "server_name"
         ],
         [
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
           "supported_groups",
+          "session_ticket",
           "GREASE"
         ]
       ]
     ]
   },
   {
-    "id": "aord-abig",
+    "id": "aord-aadn",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:compress_certificate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "server_name",
+          "supported_versions"
+        ],
+        [
+          "ec_point_formats",
+          "extended_master_secret",
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aado",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:ec_point_formats"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "server_name",
+          "supported_versions",
+          "compress_certificate"
+        ],
+        [
+          "extended_master_secret",
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadp",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:extended_master_secret"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "server_name",
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats"
+        ],
+        [
+          "supported_groups",
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadq",
     "checkName": "ArrayOrderIndexCheck",
     "checkType": "Individual",
     "checkMeta": {
@@ -8233,21 +7684,54 @@
       [
         [
           "GREASE",
-          "ec_point_formats",
-          "session_ticket",
-          "UNKNOWN",
-          "psk_key_exchange_modes",
-          "UNKNOWN",
-          "application_layer_protocol_negotiation",
           "key_share",
-          "compress_certificate",
-          "renegotiate",
-          "signed_certificate_timestamps",
-          "extended_master_secret",
           "status_request",
+          "UNKNOWN",
           "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
           "server_name",
-          "supported_versions"
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret"
+        ],
+        [
+          "session_ticket",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadr",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:session_ticket"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "key_share",
+          "status_request",
+          "UNKNOWN",
+          "signature_algorithms",
+          "psk_key_exchange_modes",
+          "application_layer_protocol_negotiation",
+          "UNKNOWN",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "server_name",
+          "supported_versions",
+          "compress_certificate",
+          "ec_point_formats",
+          "extended_master_secret",
+          "supported_groups"
         ],
         [
           "GREASE"
@@ -8776,6 +8260,402 @@
           "application_layer_protocol_negotiation",
           "supported_groups",
           "status_request"
+        ],
+        [
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aads",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:UNKNOWN"
+    },
+    "args": [
+      [
+        [
+          "GREASE"
+        ],
+        [
+          "supported_versions",
+          "server_name",
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadt",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:supported_versions"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN"
+        ],
+        [
+          "server_name",
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadu",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:server_name"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions"
+        ],
+        [
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadv",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:key_share"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name"
+        ],
+        [
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadw",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:compress_certificate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name",
+          "key_share"
+        ],
+        [
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadx",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:signed_certificate_timestamps"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name",
+          "key_share",
+          "compress_certificate"
+        ],
+        [
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aady",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:renegotiate"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name",
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps"
+        ],
+        [
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aadz",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:psk_key_exchange_modes"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name",
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate"
+        ],
+        [
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaea",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:session_ticket"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name",
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes"
+        ],
+        [
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaeb",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:status_request"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name",
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket"
+        ],
+        [
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats",
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaeg",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:ec_point_formats"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name",
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms"
+        ],
+        [
+          "application_layer_protocol_negotiation",
+          "GREASE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "aord-aaeh",
+    "checkName": "ArrayOrderIndexCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "clientHello.extensions.order:application_layer_protocol_negotiation"
+    },
+    "args": [
+      [
+        [
+          "GREASE",
+          "UNKNOWN",
+          "supported_versions",
+          "server_name",
+          "key_share",
+          "compress_certificate",
+          "signed_certificate_timestamps",
+          "renegotiate",
+          "psk_key_exchange_modes",
+          "session_ticket",
+          "status_request",
+          "extended_master_secret",
+          "supported_groups",
+          "UNKNOWN",
+          "signature_algorithms",
+          "ec_point_formats"
         ],
         [
           "GREASE"

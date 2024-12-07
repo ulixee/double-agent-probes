@@ -2444,5 +2444,9 @@
   "https:GET:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aaay",
   "https:POST:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aaaz",
   "http2:GET:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aaba",
-  "http2:POST:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aabb"
+  "http2:POST:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\"": "dval-aabb",
+  "https:GET:Document:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaak",
+  "https:POST:Document:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaal",
+  "http2:GET:Document:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaam",
+  "http2:POST:Document:sec-ch-ua:DefaultValueCheck:\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"": "dval-aaan"
 }
