@@ -4,12 +4,12 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-14--chrome-131-0"
+      "mac-os-15--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
     "probeIds": [
-      "numr-aaab",
+      "numr-aaaa",
       "numr-aabi",
       "numr-aabj",
       "bool-aagm",
@@ -25,7 +25,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-11--chrome-130-0"
+      "mac-os-11--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -46,7 +46,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-11--chrome-131-0"
+      "mac-os-11--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -67,7 +67,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-12--chrome-130-0"
+      "mac-os-12--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -88,7 +88,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-12--chrome-131-0"
+      "mac-os-12--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -109,7 +109,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-13--chrome-130-0"
+      "mac-os-13--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -130,7 +130,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-14--chrome-130-0"
+      "mac-os-13--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -151,7 +151,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-15--chrome-130-0"
+      "mac-os-14--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -172,7 +172,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-10--chrome-130-0"
+      "mac-os-14--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -193,7 +193,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-10--chrome-131-0"
+      "mac-os-15--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -214,7 +214,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-11--chrome-130-0"
+      "windows-10--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -235,7 +235,7 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-11--chrome-131-0"
+      "windows-10--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -256,11 +256,12 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-13--chrome-131-0"
+      "windows-11--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
     "probeIds": [
+      "numr-aabh",
       "numr-aabi",
       "numr-aabj",
       "bool-aagm",
@@ -268,8 +269,7 @@
       "bool-aago",
       "bool-aagp",
       "bool-aagq",
-      "bool-aagr",
-      "numr-aaaa"
+      "bool-aagr"
     ]
   },
   {
@@ -277,11 +277,12 @@
     "layerId": "http2-session",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-15--chrome-131-0"
+      "windows-11--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
     "probeIds": [
+      "numr-aabh",
       "numr-aabi",
       "numr-aabj",
       "bool-aagm",
@@ -289,8 +290,7 @@
       "bool-aago",
       "bool-aagp",
       "bool-aagq",
-      "bool-aagr",
-      "numr-aaaa"
+      "bool-aagr"
     ]
   }
 ]

@@ -174,5 +174,14 @@
   "videoSupport.recordingFormats:StringArrayCheck:video/mp4;codecs=vp9,opus": "stra-aaal",
   "audioSupport.recordingFormats:StringArrayCheck:audio/mp4": "stra-aaam",
   "audioSupport.recordingFormats:StringArrayCheck:audio/mp4;codecs=mp4a.40.2": "stra-aaan",
-  "audioSupport.recordingFormats:StringArrayCheck:audio/mp4;codecs=opus": "stra-aaao"
+  "audioSupport.recordingFormats:StringArrayCheck:audio/mp4;codecs=opus": "stra-aaao",
+  "videoSupport.recordingFormats:StringArrayCheck:video/mp4;codecs=hev1.1.6.L150.B0": "stra-aaaa",
+  "videoSupport.recordingFormats:StringArrayCheck:video/mp4;codecs=hev1.1.6.L153.B0": "stra-aaab",
+  "videoSupport.recordingFormats:StringArrayCheck:video/mp4;codecs=hev1.2.6.L150.B0": "stra-aaac",
+  "videoSupport.recordingFormats:StringArrayCheck:video/mp4;codecs=hev1.2.6.L153.B0": "stra-aaad",
+  "videoSupport.recordingFormats:StringArrayCheck:video/x-matroska;codecs=hev1.1.6.L150.B0": "stra-aaae",
+  "videoSupport.recordingFormats:StringArrayCheck:video/x-matroska;codecs=hev1.1.6.L153.B0": "stra-aaaf",
+  "videoSupport.recordingFormats:StringArrayCheck:video/x-matroska;codecs=hev1.2.6.L150.B0": "stra-aaag",
+  "videoSupport.recordingFormats:StringArrayCheck:video/x-matroska;codecs=hev1.2.6.L153.B0": "stra-aaah",
+  "webRtcVideoCodecs:StringArrayCheck:90000-video/H265": "stra-aaai"
 }

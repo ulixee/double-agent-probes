@@ -4,7 +4,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-11--chrome-130-0"
+      "mac-os-11--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -126,7 +126,16 @@
       "stra-aaaa",
       "stra-aaab",
       "stra-aaac",
-      "stra-aaad"
+      "stra-aaad",
+      "stra-aaaa",
+      "stra-aaab",
+      "stra-aaac",
+      "stra-aaad",
+      "stra-aaae",
+      "stra-aaaf",
+      "stra-aaag",
+      "stra-aaah",
+      "stra-aaai"
     ]
   },
   {
@@ -134,7 +143,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-11--chrome-131-0"
+      "mac-os-12--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -256,7 +265,16 @@
       "stra-aaaa",
       "stra-aaab",
       "stra-aaac",
-      "stra-aaad"
+      "stra-aaad",
+      "stra-aaaa",
+      "stra-aaab",
+      "stra-aaac",
+      "stra-aaad",
+      "stra-aaae",
+      "stra-aaaf",
+      "stra-aaag",
+      "stra-aaah",
+      "stra-aaai"
     ]
   },
   {
@@ -264,7 +282,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-12--chrome-130-0"
+      "mac-os-13--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -386,7 +404,16 @@
       "stra-aaaa",
       "stra-aaab",
       "stra-aaac",
-      "stra-aaad"
+      "stra-aaad",
+      "stra-aaaa",
+      "stra-aaab",
+      "stra-aaac",
+      "stra-aaad",
+      "stra-aaae",
+      "stra-aaaf",
+      "stra-aaag",
+      "stra-aaah",
+      "stra-aaai"
     ]
   },
   {
@@ -394,7 +421,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-12--chrome-131-0"
+      "mac-os-14--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -516,7 +543,16 @@
       "stra-aaaa",
       "stra-aaab",
       "stra-aaac",
-      "stra-aaad"
+      "stra-aaad",
+      "stra-aaaa",
+      "stra-aaab",
+      "stra-aaac",
+      "stra-aaad",
+      "stra-aaae",
+      "stra-aaaf",
+      "stra-aaag",
+      "stra-aaah",
+      "stra-aaai"
     ]
   },
   {
@@ -524,7 +560,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-13--chrome-130-0"
+      "mac-os-15--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -646,7 +682,16 @@
       "stra-aaaa",
       "stra-aaab",
       "stra-aaac",
-      "stra-aaad"
+      "stra-aaad",
+      "stra-aaaa",
+      "stra-aaab",
+      "stra-aaac",
+      "stra-aaad",
+      "stra-aaae",
+      "stra-aaaf",
+      "stra-aaag",
+      "stra-aaah",
+      "stra-aaai"
     ]
   },
   {
@@ -654,7 +699,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-13--chrome-131-0"
+      "mac-os-11--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -784,7 +829,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-14--chrome-130-0"
+      "mac-os-12--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -914,7 +959,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-14--chrome-131-0"
+      "mac-os-13--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1044,7 +1089,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-15--chrome-130-0"
+      "mac-os-14--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1174,7 +1219,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-15--chrome-131-0"
+      "mac-os-15--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1304,7 +1349,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-10--chrome-130-0"
+      "windows-10--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1430,7 +1475,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-10--chrome-131-0"
+      "windows-10--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1556,7 +1601,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-11--chrome-130-0"
+      "windows-11--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1682,7 +1727,7 @@
     "layerId": "video-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-11--chrome-131-0"
+      "windows-11--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1808,7 +1853,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-11--chrome-130-0"
+      "mac-os-11--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1868,7 +1913,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-11--chrome-131-0"
+      "mac-os-11--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1928,7 +1973,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-12--chrome-130-0"
+      "mac-os-12--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -1988,7 +2033,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-12--chrome-131-0"
+      "mac-os-12--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2048,7 +2093,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-13--chrome-130-0"
+      "mac-os-13--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2108,7 +2153,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-13--chrome-131-0"
+      "mac-os-13--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2168,7 +2213,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-14--chrome-130-0"
+      "mac-os-14--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2228,7 +2273,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-14--chrome-131-0"
+      "mac-os-14--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2288,7 +2333,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-15--chrome-130-0"
+      "mac-os-15--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2348,7 +2393,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "mac-os-15--chrome-131-0"
+      "mac-os-15--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2408,7 +2453,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-10--chrome-130-0"
+      "windows-10--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2468,7 +2513,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-10--chrome-131-0"
+      "windows-10--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2528,7 +2573,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-11--chrome-130-0"
+      "windows-11--chrome-135-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",
@@ -2588,7 +2633,7 @@
     "layerId": "audio-codecs",
     "checkType": "Individual",
     "userAgentIds": [
-      "windows-11--chrome-131-0"
+      "windows-11--chrome-136-0"
     ],
     "matcher": "PositiveMatcher",
     "scorer": "DiffGradient",

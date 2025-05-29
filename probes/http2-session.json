@@ -1,13 +1,13 @@
 [
   {
-    "id": "numr-aaab",
+    "id": "numr-aaaa",
     "checkName": "NumberCheck",
     "checkType": "Individual",
     "checkMeta": {
       "path": "sessions"
     },
     "args": [
-      3,
+      2,
       null
     ]
   },
@@ -110,18 +110,6 @@
     },
     "args": [
       1,
-      null
-    ]
-  },
-  {
-    "id": "numr-aaaa",
-    "checkName": "NumberCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "sessions"
-    },
-    "args": [
-      2,
       null
     ]
   }

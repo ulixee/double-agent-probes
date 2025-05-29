@@ -11599,6 +11599,126 @@
     ]
   },
   {
+    "id": "dval-aabc",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabd",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabe",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabf",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabg",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabh",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabi",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aabj",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\""
+      ]
+    ]
+  },
+  {
     "id": "dval-aabk",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -11609,7 +11729,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
       ]
     ]
   },
@@ -11624,7 +11744,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
       ]
     ]
   },
@@ -11639,7 +11759,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
       ]
     ]
   },
@@ -11654,7 +11774,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
       ]
     ]
   },
@@ -11669,7 +11789,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
       ]
     ]
   },
@@ -11684,7 +11804,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
       ]
     ]
   },
@@ -11699,7 +11819,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\""
+        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
       ]
     ]
   },
@@ -11714,127 +11834,7 @@
     },
     "args": [
       [
-        "\"Chromium\";v=\"130\", \"Google Chrome\";v=\"130\", \"Not?A_Brand\";v=\"99\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaao",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaap",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaaq",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaar",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaas",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaat",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaau",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaav",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+        "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
       ]
     ]
   },
