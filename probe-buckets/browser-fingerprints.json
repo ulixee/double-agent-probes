@@ -139,57 +139,5 @@
     "probeIds": [
       "sfng-aaaa"
     ]
-  },
-  {
-    "id": "fng-1012",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-135-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1013",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-136-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1014",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-135-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
-  },
-  {
-    "id": "fng-1015",
-    "layerId": "fingerprints",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-136-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "sfng-aaaa"
-    ]
   }
 ]

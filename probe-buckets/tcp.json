@@ -130,58 +130,6 @@
     ]
   },
   {
-    "id": "ttl-1011",
-    "layerId": "time-to-live",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-135-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "eval-aaab"
-    ]
-  },
-  {
-    "id": "ttl-1012",
-    "layerId": "time-to-live",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-136-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "eval-aaab"
-    ]
-  },
-  {
-    "id": "ttl-1013",
-    "layerId": "time-to-live",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-135-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "eval-aaab"
-    ]
-  },
-  {
-    "id": "ttl-1014",
-    "layerId": "time-to-live",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-136-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "eval-aaab"
-    ]
-  },
-  {
     "id": "wns-1001",
     "layerId": "window-size",
     "checkType": "Individual",
@@ -309,58 +257,6 @@
     "scorer": "DiffGradient",
     "probeIds": [
       "evls-aaaa"
-    ]
-  },
-  {
-    "id": "wns-1011",
-    "layerId": "window-size",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-135-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "evls-aaab"
-    ]
-  },
-  {
-    "id": "wns-1012",
-    "layerId": "window-size",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-10--chrome-136-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "evls-aaab"
-    ]
-  },
-  {
-    "id": "wns-1013",
-    "layerId": "window-size",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-135-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "evls-aaab"
-    ]
-  },
-  {
-    "id": "wns-1014",
-    "layerId": "window-size",
-    "checkType": "Individual",
-    "userAgentIds": [
-      "windows-11--chrome-136-0"
-    ],
-    "matcher": "PositiveMatcher",
-    "scorer": "DiffGradient",
-    "probeIds": [
-      "evls-aaab"
     ]
   }
 ]

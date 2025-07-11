@@ -17174,6 +17174,21 @@
     ]
   },
   {
+    "id": "dval-aaks",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
     "id": "dval-aaio",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -17327,6 +17342,21 @@
     ]
   },
   {
+    "id": "dval-aaku",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
     "id": "dval-aaix",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -17460,6 +17490,21 @@
     "args": [
       [
         "?0"
+      ]
+    ]
+  },
+  {
+    "id": "dval-aakw",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"macOS\""
       ]
     ]
   },
@@ -17598,6 +17643,21 @@
     "args": [
       [
         "?0"
+      ]
+    ]
+  },
+  {
+    "id": "dval-aaky",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Document:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"macOS\""
       ]
     ]
   },
@@ -17784,66 +17844,6 @@
     ]
   },
   {
-    "id": "dval-aaks",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"macOS\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaku",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"macOS\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aakw",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"macOS\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaky",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"macOS\""
-      ]
-    ]
-  },
-  {
     "id": "dval-aaay",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -17900,66 +17900,6 @@
     "args": [
       [
         "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aalu",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Windows\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aalv",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Windows\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aalw",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"Windows\""
-      ]
-    ]
-  },
-  {
-    "id": "dval-aalx",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Document:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"Windows\""
       ]
     ]
   }
