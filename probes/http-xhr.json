@@ -10381,21 +10381,6 @@
     ]
   },
   {
-    "id": "dval-aara",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"macOS\""
-      ]
-    ]
-  },
-  {
     "id": "dval-aang",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -10514,21 +10499,6 @@
     "args": [
       [
         "keep-alive"
-      ]
-    ]
-  },
-  {
-    "id": "dval-aarc",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"macOS\""
       ]
     ]
   },
@@ -10655,21 +10625,6 @@
     ]
   },
   {
-    "id": "dval-aare",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"macOS\""
-      ]
-    ]
-  },
-  {
     "id": "dval-aapy",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -10788,21 +10743,6 @@
     "args": [
       [
         "keep-alive"
-      ]
-    ]
-  },
-  {
-    "id": "dval-aarg",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua-platform",
-      "protocol": "https",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"macOS\""
       ]
     ]
   },
@@ -11020,21 +10960,6 @@
     ]
   },
   {
-    "id": "dval-aari",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"macOS\""
-      ]
-    ]
-  },
-  {
     "id": "dval-aaok",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -11138,21 +11063,6 @@
     "args": [
       [
         "en-US,en;q=0.9"
-      ]
-    ]
-  },
-  {
-    "id": "dval-aark",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "GET"
-    },
-    "args": [
-      [
-        "\"macOS\""
       ]
     ]
   },
@@ -11264,21 +11174,6 @@
     ]
   },
   {
-    "id": "dval-aarm",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "Fetch:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"macOS\""
-      ]
-    ]
-  },
-  {
     "id": "dval-aaqg",
     "checkName": "DefaultValueCheck",
     "checkType": "Individual",
@@ -11382,21 +11277,6 @@
     "args": [
       [
         "en-US,en;q=0.9"
-      ]
-    ]
-  },
-  {
-    "id": "dval-aaro",
-    "checkName": "DefaultValueCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "XHR:sec-ch-ua-platform",
-      "protocol": "http2",
-      "httpMethod": "POST"
-    },
-    "args": [
-      [
-        "\"macOS\""
       ]
     ]
   },
@@ -11595,6 +11475,126 @@
     "args": [
       [
         "en-US,en;q=0.9"
+      ]
+    ]
+  },
+  {
+    "id": "dval-aara",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aarc",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aare",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aarg",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aari",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aark",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aarm",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"macOS\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aaro",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"macOS\""
       ]
     ]
   },
@@ -11835,6 +11835,126 @@
     "args": [
       [
         "\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aatd",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Windows\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aate",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Windows\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aatf",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Windows\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aatg",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua-platform",
+      "protocol": "https",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Windows\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aath",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Windows\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aati",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "GET"
+    },
+    "args": [
+      [
+        "\"Windows\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aatj",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "Fetch:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Windows\""
+      ]
+    ]
+  },
+  {
+    "id": "dval-aatk",
+    "checkName": "DefaultValueCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "XHR:sec-ch-ua-platform",
+      "protocol": "http2",
+      "httpMethod": "POST"
+    },
+    "args": [
+      [
+        "\"Windows\""
       ]
     ]
   }

@@ -231,17 +231,6 @@
     ]
   },
   {
-    "id": "stra-aaab",
-    "checkName": "StringArrayCheck",
-    "checkType": "Individual",
-    "checkMeta": {
-      "path": "videoSupport.recordingFormats"
-    },
-    "args": [
-      "video/mp4;codecs=avc1"
-    ]
-  },
-  {
     "id": "stra-aaaw",
     "checkName": "StringArrayCheck",
     "checkType": "Individual",
@@ -569,6 +558,17 @@
     },
     "args": [
       "video/webm"
+    ]
+  },
+  {
+    "id": "stra-aaab",
+    "checkName": "StringArrayCheck",
+    "checkType": "Individual",
+    "checkMeta": {
+      "path": "videoSupport.recordingFormats"
+    },
+    "args": [
+      "video/mp4;codecs=avc1"
     ]
   },
   {

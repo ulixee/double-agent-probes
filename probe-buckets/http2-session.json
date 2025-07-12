@@ -208,5 +208,131 @@
       "bool-aagq",
       "bool-aagr"
     ]
+  },
+  {
+    "id": "h2s-1011",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-26--chrome-135-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1012",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "mac-os-26--chrome-136-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1013",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-10--chrome-135-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1014",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-10--chrome-136-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1015",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-11--chrome-135-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
+  },
+  {
+    "id": "h2s-1016",
+    "layerId": "http2-session",
+    "checkType": "Individual",
+    "userAgentIds": [
+      "windows-11--chrome-136-0"
+    ],
+    "matcher": "PositiveMatcher",
+    "scorer": "DiffGradient",
+    "probeIds": [
+      "numr-aabh",
+      "numr-aabi",
+      "numr-aabj",
+      "bool-aagm",
+      "bool-aagn",
+      "bool-aago",
+      "bool-aagp",
+      "bool-aagq",
+      "bool-aagr"
+    ]
   }
 ]
