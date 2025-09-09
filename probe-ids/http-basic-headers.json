@@ -2456,5 +2456,13 @@
   "https:GET:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"": "dval-aaay",
   "https:POST:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"": "dval-aaaz",
   "http2:GET:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"": "dval-aaba",
-  "http2:POST:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"": "dval-aabb"
+  "http2:POST:Document:sec-ch-ua:DefaultValueCheck:\"Chromium\";v=\"136\", \"Google Chrome\";v=\"136\", \"Not.A/Brand\";v=\"99\"": "dval-aabb",
+  "https:GET:Document:sec-ch-ua:DefaultValueCheck:\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\"": "dval-aaau",
+  "https:POST:Document:sec-ch-ua:DefaultValueCheck:\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\"": "dval-aaav",
+  "http2:GET:Document:sec-ch-ua:DefaultValueCheck:\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\"": "dval-aaaw",
+  "http2:POST:Document:sec-ch-ua:DefaultValueCheck:\"Not)A;Brand\";v=\"8\", \"Chromium\";v=\"138\", \"Google Chrome\";v=\"138\"": "dval-aaax",
+  "https:GET:Document:sec-ch-ua:DefaultValueCheck:\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"": "dval-aaay",
+  "https:POST:Document:sec-ch-ua:DefaultValueCheck:\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"": "dval-aaaz",
+  "http2:GET:Document:sec-ch-ua:DefaultValueCheck:\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"": "dval-aaba",
+  "http2:POST:Document:sec-ch-ua:DefaultValueCheck:\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"": "dval-aabb"
 }
